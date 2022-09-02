@@ -1,0 +1,15 @@
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\bin\Debug\net6.0\glkt.IRepository.deps.json
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\bin\Debug\net6.0\glkt.IRepository.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\bin\Debug\net6.0\glkt.IRepository.pdb
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\obj\Debug\net6.0\glkt.IRepository.csproj.AssemblyReference.cache
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\obj\Debug\net6.0\glkt.IRepository.GeneratedMSBuildEditorConfig.editorconfig
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\obj\Debug\net6.0\glkt.IRepository.AssemblyInfoInputs.cache
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\obj\Debug\net6.0\glkt.IRepository.AssemblyInfo.cs
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\obj\Debug\net6.0\glkt.IRepository.csproj.CoreCompileInputs.cache
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\obj\Debug\net6.0\glkt.IRepository.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\obj\Debug\net6.0\refint\glkt.IRepository.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\obj\Debug\net6.0\glkt.IRepository.pdb
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\obj\Debug\net6.0\ref\glkt.IRepository.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\bin\Debug\net6.0\glkt.Model.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\bin\Debug\net6.0\glkt.Model.pdb
+E:\demo\谷粒课堂\后端\glkt\glkt.IRepository\obj\Debug\net6.0\glkt.IRepository.csproj.CopyComplete

@@ -1,0 +1,15 @@
+E:\demo\谷粒课堂\后端\glkt\glky.IService\bin\Debug\net6.0\glkt.IService.deps.json
+E:\demo\谷粒课堂\后端\glkt\glky.IService\bin\Debug\net6.0\glkt.IService.dll
+E:\demo\谷粒课堂\后端\glkt\glky.IService\bin\Debug\net6.0\glkt.IService.pdb
+E:\demo\谷粒课堂\后端\glkt\glky.IService\obj\Debug\net6.0\glkt.IService.csproj.AssemblyReference.cache
+E:\demo\谷粒课堂\后端\glkt\glky.IService\obj\Debug\net6.0\glkt.IService.GeneratedMSBuildEditorConfig.editorconfig
+E:\demo\谷粒课堂\后端\glkt\glky.IService\obj\Debug\net6.0\glkt.IService.AssemblyInfoInputs.cache
+E:\demo\谷粒课堂\后端\glkt\glky.IService\obj\Debug\net6.0\glkt.IService.AssemblyInfo.cs
+E:\demo\谷粒课堂\后端\glkt\glky.IService\obj\Debug\net6.0\glkt.IService.csproj.CoreCompileInputs.cache
+E:\demo\谷粒课堂\后端\glkt\glky.IService\obj\Debug\net6.0\glkt.IService.dll
+E:\demo\谷粒课堂\后端\glkt\glky.IService\obj\Debug\net6.0\refint\glkt.IService.dll
+E:\demo\谷粒课堂\后端\glkt\glky.IService\obj\Debug\net6.0\glkt.IService.pdb
+E:\demo\谷粒课堂\后端\glkt\glky.IService\obj\Debug\net6.0\ref\glkt.IService.dll
+E:\demo\谷粒课堂\后端\glkt\glky.IService\bin\Debug\net6.0\glkt.Model.dll
+E:\demo\谷粒课堂\后端\glkt\glky.IService\bin\Debug\net6.0\glkt.Model.pdb
+E:\demo\谷粒课堂\后端\glkt\glky.IService\obj\Debug\net6.0\glkt.IService.csproj.CopyComplete

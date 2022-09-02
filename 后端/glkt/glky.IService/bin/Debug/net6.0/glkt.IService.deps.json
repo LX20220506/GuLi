@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "glkt.IService/1.0.0": {
+        "dependencies": {
+          "glkt.Model": "1.0.0"
+        },
+        "runtime": {
+          "glkt.IService.dll": {}
+        }
+      },
+      "glkt.Model/1.0.0": {
+        "runtime": {
+          "glkt.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "glkt.IService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "glkt.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

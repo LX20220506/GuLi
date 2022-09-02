@@ -1,0 +1,12 @@
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\bin\Debug\net6.0\glkt.Model.deps.json
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\bin\Debug\net6.0\glkt.Model.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\bin\Debug\net6.0\glkt.Model.pdb
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\obj\Debug\net6.0\glkt.Model.csproj.AssemblyReference.cache
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\obj\Debug\net6.0\glkt.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\obj\Debug\net6.0\glkt.Model.AssemblyInfoInputs.cache
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\obj\Debug\net6.0\glkt.Model.AssemblyInfo.cs
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\obj\Debug\net6.0\glkt.Model.csproj.CoreCompileInputs.cache
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\obj\Debug\net6.0\glkt.Model.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\obj\Debug\net6.0\refint\glkt.Model.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\obj\Debug\net6.0\glkt.Model.pdb
+E:\demo\谷粒课堂\后端\glkt\glkt.Model\obj\Debug\net6.0\ref\glkt.Model.dll
