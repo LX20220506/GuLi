@@ -8,25 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\1011751\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\86139\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Model\\glkt.Model.csproj",
+      "projectUniqueName": "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.Model\\glkt.Model.csproj",
       "projectName": "glkt.Model",
-      "projectPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Model\\glkt.Model.csproj",
-      "packagesPath": "C:\\Users\\1011751\\.nuget\\packages\\",
-      "outputPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Model\\obj\\",
+      "projectPath": "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.Model\\glkt.Model.csproj",
+      "packagesPath": "C:\\Users\\86139\\.nuget\\packages\\",
+      "outputPath": "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\1011751\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\86139\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -34,9 +32,7 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.myget.org/F/chucknorris/": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\glkt.Common\glkt.Common.csproj" />
     <ProjectReference Include="..\glkt.EF\glkt.EF.csproj" />
     <ProjectReference Include="..\glkt.Repository\glkt.Repository.csproj" />
     <ProjectReference Include="..\glkt.Service\glkt.Service.csproj" />

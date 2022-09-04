@@ -1,0 +1,12 @@
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\bin\Debug\net6.0\glkt.Common.deps.json
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\bin\Debug\net6.0\glkt.Common.dll
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\bin\Debug\net6.0\glkt.Common.pdb
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\obj\Debug\net6.0\glkt.Common.csproj.AssemblyReference.cache
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\obj\Debug\net6.0\glkt.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\obj\Debug\net6.0\glkt.Common.AssemblyInfoInputs.cache
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\obj\Debug\net6.0\glkt.Common.AssemblyInfo.cs
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\obj\Debug\net6.0\glkt.Common.csproj.CoreCompileInputs.cache
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\obj\Debug\net6.0\glkt.Common.dll
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\obj\Debug\net6.0\refint\glkt.Common.dll
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\obj\Debug\net6.0\glkt.Common.pdb
+D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Common\obj\Debug\net6.0\ref\glkt.Common.dll

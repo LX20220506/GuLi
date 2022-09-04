@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "glkt.IRepository": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:1498;http://localhost:1503"
+    }
+  }
+}
