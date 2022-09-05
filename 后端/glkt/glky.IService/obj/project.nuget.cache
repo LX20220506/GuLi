@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fFLqTEtP0MekL0SQerKOXJcsCSPYYaPqdv6GRbYOQI1OPJcG9WvaQunlA26c/kpmQvfLohiZHAEQL2/YZ+40fw==",
+  "dgSpecHash": "GLyvyBJaLnN4EUBOETyPlCy4Ol/CgLeJDPY521G5F3BEl8JKxiGB03sAk5nSxpeRmNsLRR75qaj+2j19YOcr9g==",
   "success": true,
-  "projectFilePath": "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glky.IService\\glkt.IService.csproj",
+  "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glky.IService\\glkt.IService.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

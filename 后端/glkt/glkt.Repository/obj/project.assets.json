@@ -800,23 +800,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\86139\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\1011751\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.Repository\\glkt.Repository.csproj",
+      "projectUniqueName": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Repository\\glkt.Repository.csproj",
       "projectName": "glkt.Repository",
-      "projectPath": "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.Repository\\glkt.Repository.csproj",
-      "packagesPath": "C:\\Users\\86139\\.nuget\\packages\\",
-      "outputPath": "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.Repository\\obj\\",
+      "projectPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Repository\\glkt.Repository.csproj",
+      "packagesPath": "C:\\Users\\1011751\\.nuget\\packages\\",
+      "outputPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\86139\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1011751\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -824,17 +826,19 @@
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.myget.org/F/chucknorris/": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.EF\\glkt.EF.csproj": {
-              "projectPath": "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.EF\\glkt.EF.csproj"
+            "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj": {
+              "projectPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj"
             },
-            "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.IRepository\\glkt.IRepository.csproj": {
-              "projectPath": "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.IRepository\\glkt.IRepository.csproj"
+            "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.IRepository\\glkt.IRepository.csproj": {
+              "projectPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.IRepository\\glkt.IRepository.csproj"
             }
           }
         }

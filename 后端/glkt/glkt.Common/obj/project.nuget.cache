@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "90MiyVqcuCrUz97dVpDoNctswXVggqDYc+547iAVNL8D4hZ9G6cIb+D+vPbGMAWX+lkSDEiW1+EMjAM0xKsTjA==",
+  "dgSpecHash": "hDIFsM/1y/NoyoPVp49DVlER8SmTPfmirdWJOl3yvn6OPhAWl0Vw3lXXorZG0VI0XUvWcJDowXfTT6mHSuyEZA==",
   "success": true,
-  "projectFilePath": "D:\\实战项目\\谷粒学院\\GuLi\\后端\\glkt\\glkt.Common\\glkt.Common.csproj",
+  "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Common\\glkt.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
