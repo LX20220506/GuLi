@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace glkt.Common.utils
+namespace glkt.Common.Utils
 {
     public class PageList
     {

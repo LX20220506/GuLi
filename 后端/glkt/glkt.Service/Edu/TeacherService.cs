@@ -22,18 +22,18 @@ namespace glkt.Service.Edu
         }
 
         // 将物理删除改为软删除
-        public override async Task Delete(EduTeacher entity)
+        public override async Task<bool> Delete(EduTeacher entity)
         {
             _repository.SoftDelete(entity);
-            await _repository.SaveAsync();
+            return await _repository.SaveAsync()>0;
         }
 
         // 将物理删除改为软删除
-        public override async Task DeleteById(object id)
+        public override async Task<bool> DeleteById(object id)
         {
             EduTeacher entity = await _repository.GetByIdAsync(id);
             _repository.SoftDelete(entity);
-            await _repository.SaveAsync();
+            return await _repository.SaveAsync() > 0;
         }
     }
 }

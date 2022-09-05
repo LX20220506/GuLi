@@ -1,9 +1,21 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "XAb5DPGWw7MECcHh0yK7XTGErFunkN+Rh7vl10nP3xsFH75EFVU05ZCJiASdLeFrEtprKHyEdPPPTD0Knpca0g==",
   "success": true,
   "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Service\\glkt.Service.csproj",
   "expectedPackageFiles": [
+=======
+  "dgSpecHash": "aDHGRp63oNhRXou/uSVhnTvrL0ztNZcgiiCKH8N6r2+pD8rxxrhGuUK55waBAJT1nlM1xNTZN8mXb6hX9CgQGA==",
+  "success": true,
+  "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Service\\glkt.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1011751\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+>>>>>>> feature/统一异常处理、统一日志
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.7\\microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",
@@ -18,10 +30,18 @@
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
+<<<<<<< HEAD
+=======
+    "C:\\Users\\1011751\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+>>>>>>> feature/统一异常处理、统一日志
     "C:\\Users\\1011751\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.2\\pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+<<<<<<< HEAD
+=======
+    "C:\\Users\\1011751\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+>>>>>>> feature/统一异常处理、统一日志
     "C:\\Users\\1011751\\.nuget\\packages\\topage\\2.0.1\\topage.2.0.1.nupkg.sha512"
   ],
   "logs": []

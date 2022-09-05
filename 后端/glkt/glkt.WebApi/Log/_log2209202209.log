@@ -1,0 +1,172 @@
+﻿
+【INF】2022-09-05 16:27:48.203
+#Msg# Now listening on: https://localhost:55555
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-05 16:27:48.256
+#Msg# Now listening on: http://localhost:55556
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-05 16:27:48.264
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-05 16:27:48.266
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-05 16:27:48.268
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.WebApi\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-05 16:27:49.409
+#Msg# Request starting HTTP/2 GET https://localhost:55555/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF322382KO:00000001","RequestPath":"/swagger/index.html","ConnectionId":"0HMKF322382KO"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:27.901
+#Msg# Now listening on: https://localhost:55555
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:27.945
+#Msg# Now listening on: http://localhost:55556
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:27.952
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:27.953
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:27.955
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.WebApi\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:28.217
+#Msg# Request starting HTTP/2 GET https://localhost:55555/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF32VNDQBP:00000001","RequestPath":"/swagger/index.html","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:28.495
+#Msg# Request finished HTTP/2 GET https://localhost:55555/swagger/index.html - - - 200 - text/html;charset=utf-8 281.1828ms
+#Pro# {"ElapsedMilliseconds":281.1828,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/2","Method":"GET","Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF32VNDQBP:00000001","RequestPath":"/swagger/index.html","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:28.503
+#Msg# Request starting HTTP/2 GET https://localhost:55555/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF32VNDQBP:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:28.503
+#Msg# Request starting HTTP/2 GET https://localhost:55555/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF32VNDQBP:00000005","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:28.510
+#Msg# Request finished HTTP/2 GET https://localhost:55555/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.1042ms
+#Pro# {"ElapsedMilliseconds":7.1042,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11992,"Protocol":"HTTP/2","Method":"GET","Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF32VNDQBP:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:28.552
+#Msg# Request finished HTTP/2 GET https://localhost:55555/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.4302ms
+#Pro# {"ElapsedMilliseconds":48.4302,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/2","Method":"GET","Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF32VNDQBP:00000005","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:28.698
+#Msg# Request starting HTTP/2 GET https://localhost:55555/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF32VNDQBP:00000007","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:28.915
+#Msg# Request finished HTTP/2 GET https://localhost:55555/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.2756ms
+#Pro# {"ElapsedMilliseconds":217.2756,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/2","Method":"GET","Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF32VNDQBP:00000007","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:32.832
+#Msg# Request starting HTTP/2 GET https://localhost:55555/api/Teacher/GetTeacherById/1 - -
+#Pro# {"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/api/Teacher/GetTeacherById/1","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF32VNDQBP:00000009","RequestPath":"/api/Teacher/GetTeacherById/1","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:32.845
+#Msg# Executing endpoint 'glkt.WebApi.Controllers.Edu.TeacherController.GetTeacherById (glkt.WebApi)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKF32VNDQBP:00000009","RequestPath":"/api/Teacher/GetTeacherById/1","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:32.879
+#Msg# Route matched with {action = "GetTeacherById", controller = "Teacher"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] GetTeacherById(System.String) on controller glkt.WebApi.Controllers.Edu.TeacherController (glkt.WebApi).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"ac72e7c5-0e98-436d-881d-228b683e5c6e","ActionName":"glkt.WebApi.Controllers.Edu.TeacherController.GetTeacherById (glkt.WebApi)","RequestId":"0HMKF32VNDQBP:00000009","RequestPath":"/api/Teacher/GetTeacherById/1","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:33.906
+#Msg# Entity Framework Core 6.0.7 initialized 'GuLiDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 5.7.38-mysql 
+#Pro# {"EventId":{"Id":10403,"Name":"Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized"},"SourceContext":"Microsoft.EntityFrameworkCore.Infrastructure","ActionId":"ac72e7c5-0e98-436d-881d-228b683e5c6e","ActionName":"glkt.WebApi.Controllers.Edu.TeacherController.GetTeacherById (glkt.WebApi)","RequestId":"0HMKF32VNDQBP:00000009","RequestPath":"/api/Teacher/GetTeacherById/1","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:34.487
+#Msg# Executed DbCommand (126ms) [Parameters=[@__id_0='?' (Size = 19) (DbType = StringFixedLength)], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`id`, `e`.`avatar`, `e`.`career`, `e`.`gmt_create`, `e`.`gmt_modified`, `e`.`intro`, `e`.`is_deleted`, `e`.`level`, `e`.`name`, `e`.`sort`
+FROM `edu_teacher` AS `e`
+WHERE (`e`.`is_deleted` = 0) AND (`e`.`id` = @__id_0)
+LIMIT 2
+#Pro# {"EventId":{"Id":20101,"Name":"Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted"},"SourceContext":"Microsoft.EntityFrameworkCore.Database.Command","ActionId":"ac72e7c5-0e98-436d-881d-228b683e5c6e","ActionName":"glkt.WebApi.Controllers.Edu.TeacherController.GetTeacherById (glkt.WebApi)","RequestId":"0HMKF32VNDQBP:00000009","RequestPath":"/api/Teacher/GetTeacherById/1","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:34.622
+#Msg# Executing ObjectResult, writing value of type 'glkt.Common.Utils.Result.Result'.
+#Pro# {"EventId":{"Id":1,"Name":"ObjectResultExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor","ActionId":"ac72e7c5-0e98-436d-881d-228b683e5c6e","ActionName":"glkt.WebApi.Controllers.Edu.TeacherController.GetTeacherById (glkt.WebApi)","RequestId":"0HMKF32VNDQBP:00000009","RequestPath":"/api/Teacher/GetTeacherById/1","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:34.646
+#Msg# Executed action glkt.WebApi.Controllers.Edu.TeacherController.GetTeacherById (glkt.WebApi) in 1752.4217ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKF32VNDQBP:00000009","RequestPath":"/api/Teacher/GetTeacherById/1","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:34.649
+#Msg# Executed endpoint 'glkt.WebApi.Controllers.Edu.TeacherController.GetTeacherById (glkt.WebApi)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKF32VNDQBP:00000009","RequestPath":"/api/Teacher/GetTeacherById/1","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+
+
+【INF】2022-09-05 16:29:34.662
+#Msg# Request finished HTTP/2 GET https://localhost:55555/api/Teacher/GetTeacherById/1 - - - 200 - application/json;+charset=utf-8 1830.2940ms
+#Pro# {"ElapsedMilliseconds":1830.294,"StatusCode":200,"ContentType":"application/json; charset=utf-8","ContentLength":null,"Protocol":"HTTP/2","Method":"GET","Scheme":"https","Host":"localhost:55555","PathBase":"","Path":"/api/Teacher/GetTeacherById/1","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKF32VNDQBP:00000009","RequestPath":"/api/Teacher/GetTeacherById/1","ConnectionId":"0HMKF32VNDQBP"}
+#Exc# 
+

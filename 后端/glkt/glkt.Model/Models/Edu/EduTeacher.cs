@@ -47,6 +47,6 @@ namespace glkt.EF
         /// <summary>
         /// 更新时间
         /// </summary>
-        public DateTime GmtModified { get; set; }
+        public DateTime GmtModified { get; set; }= DateTime.UtcNow;
     }
 }
