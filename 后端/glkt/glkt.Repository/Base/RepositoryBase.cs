@@ -1,10 +1,13 @@
-﻿using glkt.IRepository.Base;
+﻿using glkt.Common.Utils;
+using glkt.EF;
+using glkt.IRepository.Base;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using System.Linq.Expressions;
 
 namespace ggkt.Repository.Base
 {
-    public class RepositoryBase<T> : IRepositoryBase<T> where T : class
+    public class RepositoryBase<T> : IRepositoryBase<T> where T :  class
     {
 
         private readonly DbContext _dbContext;
@@ -41,6 +44,37 @@ namespace ggkt.Repository.Base
             return await _dbContext.Set<T>().FindAsync(id);
         }
 
+        public async Task<T> GetEntityAsync(Expression<Func<T, bool>> expression)
+        {
+            return await _dbContext.Set<T>().Where(expression).SingleOrDefaultAsync();
+        }
+
+        /// <summary>
+        /// 分页查询
+        /// </summary>
+        /// <param name="index">页码</param>
+        /// <param name="size">显示数据数</param>
+        /// <param name="expression">筛选条件</param>
+        /// <returns></returns>
+        public async Task<PageList> Page(int index, int size, Expression<Func<T, bool>> expression)
+        {
+            var count = _dbContext.Set<T>().Count();
+            IEnumerable<T> data = await _dbContext.Set<T>().Where(expression).Skip(index).Take(size).ToListAsync();
+
+            return new PageList(data, index, size, count);
+        }
+
+        public async Task<PageList> Page(int index, int size)
+        {
+            var count = _dbContext.Set<T>().Count();
+            // 注意这里需要使用OrderBy；
+            // 因为ef使用的是反向工程，所有并没有ModelBase类或者接口，
+            // 这里最好对泛型<T>做一个ModelBase的约束
+            // 这样就可以使用条件排序了
+            IEnumerable<T> data = await _dbContext.Set<T>().Skip(index).Take(size).ToListAsync();
+
+            return new PageList(data, index, size, count);
+        }
 
         public virtual async Task<int> SaveAsync()
         {

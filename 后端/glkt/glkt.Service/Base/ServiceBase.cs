@@ -1,5 +1,8 @@
-﻿using glkt.IRepository.Base;
+﻿using glkt.Common.Utils;
+using glkt.IRepository.Base;
 using glkt.IService.Base;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using System.Linq.Expressions;
 
 namespace ggkt.Service.Base
@@ -14,23 +17,23 @@ namespace ggkt.Service.Base
             this._repository = repository;
         }
 
-        public virtual async Task Add(T entity)
+        public virtual async Task<bool> Add(T entity)
         {
             _repository.Add(entity);
-            await _repository.SaveAsync();
+            return await _repository.SaveAsync()>0;
         }
 
-        public virtual async Task Delete(T entity)
+        public virtual async Task<bool> Delete(T entity)
         {
             _repository.Delete(entity);
-            await _repository.SaveAsync();
+            return await _repository.SaveAsync()>0;
         }
 
-        public virtual async Task DeleteById(object id)
+        public virtual async Task<bool> DeleteById(object id)
         {
             T entity = await _repository.GetByIdAsync(id);
             _repository.Delete(entity);
-            await _repository.SaveAsync();
+            return await _repository.SaveAsync()>0;
 
         }
 
@@ -49,10 +52,25 @@ namespace ggkt.Service.Base
             return await _repository.GetByIdAsync(id);
         }
 
-        public virtual async Task Update(T entity)
+        public async Task<T> GetEntityAsync(Expression<Func<T, bool>> expression)
+        {
+            return await _repository.GetEntityAsync(expression);
+        }
+
+        public async Task<PageList> Page(int index, int size, Expression<Func<T, bool>> expression)
+        {
+            return await _repository.Page(index,size,expression);
+        }
+
+        public async Task<PageList> Page(int index, int size)
+        {
+            return await _repository.Page(index, size);
+        }
+
+        public virtual async Task<bool> Update(T entity)
         {
             _repository.Update(entity);
-            await _repository.SaveAsync();
+            return await _repository.SaveAsync()>0;
         }
     }
 }

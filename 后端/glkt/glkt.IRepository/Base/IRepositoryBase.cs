@@ -1,5 +1,7 @@
-﻿using System;
+﻿using glkt.Common.Utils;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -19,6 +21,12 @@ namespace glkt.IRepository.Base
         Task<IEnumerable<T>> GetAllAsync();
 
         Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> expression);
+
+        Task<T> GetEntityAsync(Expression<Func<T, bool>> expression);
+
+        Task<PageList> Page(int index,int size,Expression<Func<T, bool>> expression);
+
+        Task<PageList> Page(int index, int size);
 
         Task<T> GetByIdAsync(object id);
 
