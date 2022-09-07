@@ -25,6 +25,9 @@ namespace glkt.WebApi.Extensions
             CommonServiceExtensions.AddCustomAutoMapper(services);
             // 添加Serilog服务
             CommonServiceExtensions.AddSerilog(services);
+            //添加跨域
+            CommonServiceExtensions.AddCors(services);
+
             return services;
         }
 
@@ -90,6 +93,20 @@ namespace glkt.WebApi.Extensions
                 logBulider.AddSerilog(log); // 添加 Serilog 服务
 
             });
+            return services;
+        }
+
+
+        public static IServiceCollection AddCors(IServiceCollection services) {
+            string[] urls = new[] { "http://localhost:9528", "http://127.0.0.1:5173" };
+
+            services.AddCors(options =>
+                    options.AddPolicy("cors", builder =>
+                    builder.WithOrigins(urls) // 设置允许访问的地址
+                            .AllowAnyMethod() // 允许任何方法
+                            .AllowAnyHeader() // 允许任何标头
+                            .AllowCredentials()));
+
             return services;
         }
 

@@ -11,7 +11,7 @@ namespace glkt.Common.Utils.Result
 
         public static Result Ok() {
             return new Result {
-                Code = 2000,
+                Code = 20000,
                 Message="成功",
                 Success=true,
                 Data=null
@@ -20,7 +20,7 @@ namespace glkt.Common.Utils.Result
 
         public static Result Ok(dynamic data) {
             return new Result {
-                Code = 2000,
+                Code = 20000,
                 Message = "成功",
                 Success = true,
                 Data=data
@@ -31,7 +31,7 @@ namespace glkt.Common.Utils.Result
         {
             return new Result
             {
-                Code = 2000,
+                Code = 20000,
                 Message = message,
                 Success = true,
                 Data = null
@@ -42,7 +42,7 @@ namespace glkt.Common.Utils.Result
         {
             return new Result
             {
-                Code = 2000,
+                Code = 20000,
                 Message = message,
                 Success = true,
                 Data = data
@@ -66,7 +66,7 @@ namespace glkt.Common.Utils.Result
         {
             return new Result
             {
-                Code = 2001,
+                Code = 20001,
                 Message = "失败",
                 Success = false,
                 Data = null
@@ -77,7 +77,7 @@ namespace glkt.Common.Utils.Result
         {
             return new Result
             {
-                Code = 2001,
+                Code = 20001,
                 Message = message,
                 Success = false,
                 Data = null

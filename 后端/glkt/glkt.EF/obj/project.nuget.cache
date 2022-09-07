@@ -1,12 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "cui2uTHH3CUTtJSoQwB9rw5Q4tDl0ivkp3Iat96Rd0OBZUwFJo6naWy8UZyGAuXD0SLMxlZMCSNWkYDThAt/aw==",
-  "success": true,
-  "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\1011751\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-=======
   "dgSpecHash": "eoCzR9Plai5Ie60LlsF62SgNMzMBDvTNWcu59jGOUkyKUvc+gdXWc3lRjxUqWLPzlzWc6ZHsjL6shxV3aq4fNw==",
   "success": true,
   "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj",
@@ -15,7 +8,6 @@
     "C:\\Users\\1011751\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
->>>>>>> feature/统一异常处理、统一日志
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.7\\microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",
