@@ -13,8 +13,15 @@ namespace glkt.Common.Utils.AutoMapper
     {
         public CustomAutoMapperProfile()
         {
-            base.CreateMap<EduTeacher, EduTeacherDto>();
-            base.CreateMap<EduTeacherDto, EduTeacher>();
+            base.CreateMap<EduTeacher, EduTeacherDto>() // e表示EduTeacher；dto表示EduTeacherDto
+                .ForMember(dto => dto.GmtCreate, // 将EduTeacher的DateTime类型映射为string类型
+                opt => opt.MapFrom(
+                    e => e.GmtCreate.ToString("yyyy-MM-dd HH:mm:ss")));
+            
+            base.CreateMap<EduTeacherDto, EduTeacher>()
+                .ForMember(e => e.GmtCreate, // 将EduTeacherDto的string类映射为DateTime类型
+                opt => opt.MapFrom(
+                    dto =>DateTime.Parse(dto.GmtCreate)));
             //base.CreateMap<IEnumerable<EduTeacher>, IEnumerable<EduTeacherDto>>();
         }
     }

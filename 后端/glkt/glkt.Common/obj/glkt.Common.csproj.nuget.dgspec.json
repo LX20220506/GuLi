@@ -29,8 +29,6 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://www.myget.org/F/chucknorris/": {},
           "https://www.nuget.org/api/v2/": {}
-<<<<<<< HEAD
-=======
         },
         "frameworks": {
           "net6.0": {
@@ -200,7 +198,6 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://www.myget.org/F/chucknorris/": {},
           "https://www.nuget.org/api/v2/": {}
->>>>>>> feature/统一异常处理、统一日志
         },
         "frameworks": {
           "net6.0": {

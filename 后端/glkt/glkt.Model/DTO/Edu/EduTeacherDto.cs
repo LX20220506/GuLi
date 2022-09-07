@@ -47,6 +47,6 @@ namespace glkt.Model.DTO.Edu
         /// <summary>
         /// 创建时间
         /// </summary>
-        public DateTime GmtCreate { get; set; }
+        public string GmtCreate { get; set; }
     }
 }

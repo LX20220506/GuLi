@@ -1,11 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "GLyvyBJaLnN4EUBOETyPlCy4Ol/CgLeJDPY521G5F3BEl8JKxiGB03sAk5nSxpeRmNsLRR75qaj+2j19YOcr9g==",
-  "success": true,
-  "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glky.IService\\glkt.IService.csproj",
-  "expectedPackageFiles": [],
-=======
   "dgSpecHash": "EO6hEyTfF25Opeqq7inU/Y6DT76yojy6O6aalTlB2RN3kLa8a4sWEJ8DkIfwVcm2gcQMkWGiBNebMr1Tyy8H4A==",
   "success": true,
   "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glky.IService\\glkt.IService.csproj",
@@ -37,6 +31,5 @@
     "C:\\Users\\1011751\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\topage\\2.0.1\\topage.2.0.1.nupkg.sha512"
   ],
->>>>>>> feature/统一异常处理、统一日志
   "logs": []
 }

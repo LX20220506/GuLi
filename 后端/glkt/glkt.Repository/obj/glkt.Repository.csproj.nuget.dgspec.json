@@ -4,11 +4,6 @@
     "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Repository\\glkt.Repository.csproj": {}
   },
   "projects": {
-<<<<<<< HEAD
-    "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj": {
-      "version": "1.0.0",
-      "restore": {
-=======
     "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Common\\glkt.Common.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -94,7 +89,6 @@
     "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj": {
       "version": "1.0.0",
       "restore": {
->>>>>>> feature/统一异常处理、统一日志
         "projectUniqueName": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj",
         "projectName": "glkt.EF",
         "projectPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj",
@@ -209,12 +203,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
-=======
               "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Common\\glkt.Common.csproj": {
                 "projectPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Common\\glkt.Common.csproj"
               },
->>>>>>> feature/统一异常处理、统一日志
               "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Model\\glkt.Model.csproj": {
                 "projectPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Model\\glkt.Model.csproj"
               }
