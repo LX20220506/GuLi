@@ -17,12 +17,12 @@ namespace glkt.Model.DTO.Edu
         /// <summary>
         /// 讲师姓名
         /// </summary>
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         /// <summary>
         /// 讲师简介
         /// </summary>
-        public string Intro { get; set; }
+        public string? Intro { get; set; }
 
         /// <summary>
         /// 讲师资历,一句话说明讲师
@@ -47,6 +47,6 @@ namespace glkt.Model.DTO.Edu
         /// <summary>
         /// 创建时间
         /// </summary>
-        public string GmtCreate { get; set; }
+        public string? GmtCreate { get; set; } = DateTime.Now.ToString();
     }
 }

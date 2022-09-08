@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Aliyun.OSS.SDK.NetCore/2.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Aliyun.OSS.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aliyun.OSS.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "AutoMapper/11.0.0": {
         "type": "package",
         "dependencies": {
@@ -140,12 +153,10 @@
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
-          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
+          "build/_._": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+          "buildMultiTargeting/_._": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
@@ -642,7 +653,7 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "6.2.3"
         },
         "build": {
-          "build/Swashbuckle.AspNetCore.props": {}
+          "build/_._": {}
         }
       },
       "Swashbuckle.AspNetCore.Annotations/6.4.0": {
@@ -812,6 +823,10 @@
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
+          "Serilog.AspNetCore": "6.0.1",
+          "Serilog.Sinks.File": "5.0.0",
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "Swashbuckle.AspNetCore.Annotations": "6.4.0",
           "glkt.EF": "1.0.0",
           "glkt.Model": "1.0.0"
         },
@@ -896,6 +911,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Aliyun.OSS.SDK.NetCore": "2.13.0",
           "glkt.IService": "1.0.0",
           "glkt.Repository": "1.0.0"
         },
@@ -909,6 +925,20 @@
     }
   },
   "libraries": {
+    "Aliyun.OSS.SDK.NetCore/2.13.0": {
+      "sha512": "ElvJwTAdBqFmgb7K4PdxDXPFbOBCIUI5OvCOMfCoUoDL21aivtWMFUtU1v4Dxc2wcrN8XQdY1EKeGFhJK/zVyQ==",
+      "type": "package",
+      "path": "aliyun.oss.sdk.netcore/2.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aliyun.oss.sdk.netcore.2.13.0.nupkg.sha512",
+        "aliyun.oss.sdk.netcore.nuspec",
+        "lib/netstandard2.0/Aliyun.OSS.Core.dll",
+        "lib/netstandard2.0/Aliyun.OSS.Core.pdb",
+        "lib/netstandard2.0/Aliyun.OSS.Core.xml"
+      ]
+    },
     "AutoMapper/11.0.0": {
       "sha512": "+596AnKykYCk9RxXCEF4GYuapSebQtFVvIA1oVG1rrRkCLAC7AkWehJ0brCfYUbdDW3v1H/p0W3hob7JoXGjMw==",
       "type": "package",
@@ -2049,10 +2079,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
-      "Serilog.AspNetCore >= 6.0.1",
-      "Serilog.Sinks.File >= 5.0.0",
-      "Swashbuckle.AspNetCore >= 6.2.3",
-      "Swashbuckle.AspNetCore.Annotations >= 6.4.0",
       "glkt.Common >= 1.0.0",
       "glkt.EF >= 1.0.0",
       "glkt.Repository >= 1.0.0",
@@ -2067,9 +2093,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.WebApi\\glkt.WebApi.csproj",
-      "projectName": "glkt.WebApi",
-      "projectPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.WebApi\\glkt.WebApi.csproj",
+      "projectUniqueName": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.WebApi\\glkt.Edu.csproj",
+      "projectName": "glkt.Edu",
+      "projectPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.WebApi\\glkt.Edu.csproj",
       "packagesPath": "C:\\Users\\1011751\\.nuget\\packages\\",
       "outputPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.WebApi\\obj\\",
       "projectStyle": "PackageReference",
@@ -2122,22 +2148,6 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.17.0, )"
-          },
-          "Serilog.AspNetCore": {
-            "target": "Package",
-            "version": "[6.0.1, )"
-          },
-          "Serilog.Sinks.File": {
-            "target": "Package",
-            "version": "[5.0.0, )"
-          },
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "[6.2.3, )"
-          },
-          "Swashbuckle.AspNetCore.Annotations": {
-            "target": "Package",
-            "version": "[6.4.0, )"
           }
         },
         "imports": [

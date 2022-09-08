@@ -1,5 +1,6 @@
-﻿using glkt.Common.Middleware;
-using glkt.WebApi.Extensions;
+﻿using glkt.Common.CommonServiceExtemsions;
+using glkt.Common.Middleware;
+using glkt.Edu.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,7 +40,6 @@ app.UseCors("cors");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
 
 
 app.MapControllers();

@@ -3,7 +3,7 @@ using glkt.IService.Edu;
 using glkt.Repository.Edu;
 using glkt.Service.Edu;
 
-namespace glkt.WebApi.Extensions
+namespace glkt.Edu.Extensions
 {
     /// <summary>
     ///  用于注册edu的服务
