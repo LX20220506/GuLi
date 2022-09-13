@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace glkt.Model.DTO.Edu
+namespace glkt.Model.VO
 {
     public class UserLoginRequest
     {
