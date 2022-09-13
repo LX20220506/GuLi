@@ -39,12 +39,12 @@ namespace ggkt.Service.Base
 
         public virtual async Task<IEnumerable<T>> GetAllAsync()
         {
-            return await _repository.GetAllAsync();
+            return await _repository.GetAllAsync().ToListAsync();
         }
 
         public virtual async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> expression)
         {
-            return await _repository.GetAllAsync(expression);
+            return await _repository.GetAllAsync(expression).ToListAsync();
         }
 
         public virtual async Task<T> GetByIdAsync(int id)
@@ -52,17 +52,18 @@ namespace ggkt.Service.Base
             return await _repository.GetByIdAsync(id);
         }
 
-        public async Task<T> GetEntityAsync(Expression<Func<T, bool>> expression)
+        public virtual async Task<T> GetEntityAsync(Expression<Func<T, bool>> expression)
         {
             return await _repository.GetEntityAsync(expression);
         }
 
-        public async Task<PageList> Page(int index, int size, Expression<Func<T, bool>> expression)
+        public virtual async Task<PageList> Page(int index, int size, Expression<Func<T, bool>> expression)
         {
-            return await _repository.Page(index,size,expression);
+            var data =await _repository.GetAllAsync().Where(expression).Skip(index).Take(size).ToListAsync();
+            return new PageList(data,index,size,data.Count);
         }
 
-        public async Task<PageList> Page(int index, int size)
+        public virtual async Task<PageList> Page(int index, int size)
         {
             return await _repository.Page(index, size);
         }

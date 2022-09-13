@@ -27,15 +27,15 @@ namespace ggkt.Repository.Base
             _dbContext.Set<T>().Remove(entity);
         }
 
-        public virtual async Task<IEnumerable<T>> GetAllAsync()
+        public virtual IQueryable<T> GetAllAsync()
         {
-            return await _dbContext.Set<T>().ToListAsync();
+            return _dbContext.Set<T>();
             
         }
 
-        public virtual async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> expression)
+        public virtual IQueryable<T> GetAllAsync(Expression<Func<T, bool>> expression)
         {
-            return await _dbContext.Set<T>().Where(expression).ToListAsync();
+            return  _dbContext.Set<T>().Where(expression);
         }
 
 
@@ -50,16 +50,16 @@ namespace ggkt.Repository.Base
         }
 
         /// <summary>
-        /// 分页查询
+        /// 分页查询(弃用)
         /// </summary>
         /// <param name="index">页码</param>
         /// <param name="size">显示数据数</param>
         /// <param name="expression">筛选条件</param>
         /// <returns></returns>
-        public async Task<PageList> Page(int index, int size, Expression<Func<T, bool>> expression)
+        public PageList Page(int index, int size, Expression<Func<T, bool>> expression)
         {
             var count = _dbContext.Set<T>().Count();
-            IEnumerable<T> data = await _dbContext.Set<T>().Where(expression).Skip(index).Take(size).ToListAsync();
+            IQueryable<T> data = _dbContext.Set<T>().Where(expression).Skip(index).Take(size);
 
             return new PageList(data, index, size, count);
         }

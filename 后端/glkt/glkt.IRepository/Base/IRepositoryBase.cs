@@ -18,13 +18,13 @@ namespace glkt.IRepository.Base
         void Delete(T entity);
 
 
-        Task<IEnumerable<T>> GetAllAsync();
+        IQueryable<T> GetAllAsync();
 
-        Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>> expression);
+        IQueryable<T> GetAllAsync(Expression<Func<T, bool>> expression);
 
         Task<T> GetEntityAsync(Expression<Func<T, bool>> expression);
 
-        Task<PageList> Page(int index,int size,Expression<Func<T, bool>> expression);
+        PageList Page(int index,int size,Expression<Func<T, bool>> expression);
 
         Task<PageList> Page(int index, int size);
 

@@ -1,5 +1,5 @@
 ﻿using glkt.Common.Utils.Result;
-using glkt.Model.DTO.Edu;
+using glkt.Model.Vo.Edu;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

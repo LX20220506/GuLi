@@ -3,7 +3,6 @@ using glkt.Common.Utils;
 using glkt.Common.Utils.Result;
 using glkt.EF;
 using glkt.IService.Edu;
-using glkt.Model.DTO.Edu;
 using glkt.Model.Vo.Edu;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
@@ -34,41 +33,20 @@ namespace glkt.Edu.Controllers
         {
             PageList pagelist = await _teacherService.Page(index, size);
 
-            pagelist.Data = _mapper.Map<IEnumerable<EduTeacherDto>>(pagelist.Data);
+            pagelist.Data = _mapper.Map<IEnumerable<EduTeacherResponse>>(pagelist.Data);
 
             return ApiResult.Ok(pagelist);
         }
 
-        [HttpPost("search")]
+        [HttpPost("search/{index}/{size}")]
         [SwaggerOperation(Summary = "根据筛选条件查询讲师")]
-        public async Task<dynamic> FindAllTeacher(TeacherQueryVo? searchObj)
+        public async Task<dynamic> SearchTeacher([FromRoute] int index, [FromRoute] int size,EduTeacherSearchRequest? searchObj)
         {
 
-            Func<EduTeacher, bool> func = null;
+           
+            PageList pagelist = await _teacherService.Page(index, size, searchObj);
 
-            if (!string.IsNullOrEmpty(searchObj.name))
-            {
-                func += t => t.Name == searchObj.name;
-            }
-
-            if (searchObj.level != null)
-            {
-                func += t => t.Level == searchObj.level;
-            }
-
-            if (searchObj.begin != null)
-            {
-                func += t => t.GmtCreate >= searchObj.begin;
-            }
-
-            if (searchObj.end != null)
-            {
-                func += t => t.GmtCreate <= searchObj.end;
-            }
-            Expression<Func<EduTeacher, bool>> expression = t => func.Invoke(t);
-            PageList pagelist = await _teacherService.Page(searchObj.index, searchObj.size, expression);
-
-            pagelist.Data = _mapper.Map<IEnumerable<EduTeacherDto>>(pagelist.Data);
+            pagelist.Data = _mapper.Map<IEnumerable<EduTeacherResponse>>(pagelist.Data);
 
             return ApiResult.Ok(pagelist);
         }
@@ -78,7 +56,7 @@ namespace glkt.Edu.Controllers
         {
             EduTeacher teacher = await _teacherService.GetEntityAsync(e => e.Id == id);
             if (teacher != null)
-                return ApiResult.Ok(_mapper.Map<EduTeacherDto>(teacher));
+                return ApiResult.Ok(_mapper.Map<EduTeacherResponse>(teacher));
             return ApiResult.Error("未找到该讲师");
         }
 
@@ -92,7 +70,7 @@ namespace glkt.Edu.Controllers
 
         [HttpPost]
         [SwaggerOperation(Summary = "添加讲师")]
-        public async Task<dynamic> CreateTeacher(EduTeacherDto teacherDto)
+        public async Task<dynamic> CreateTeacher(EduTeacherResponse teacherDto)
         {
             EduTeacher teacher = _mapper.Map<EduTeacher>(teacherDto);
             string id = Guid.NewGuid().ToString().Replace("-", "");
@@ -106,7 +84,7 @@ namespace glkt.Edu.Controllers
 
 
         [HttpPut("{id}")]
-        public async Task<dynamic> UpdateTeacher(string id, EduTeacherDto teacherDto)
+        public async Task<dynamic> UpdateTeacher(string id, EduTeacherResponse teacherDto)
         {
             EduTeacher teacher = await _teacherService.GetEntityAsync(t => t.Id == id);
             if (teacher == null)
