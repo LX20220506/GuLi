@@ -9,8 +9,6 @@
       "glkt.WebApi/1.0.0": {
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
-          "Serilog.AspNetCore": "6.0.1",
-          "Serilog.Sinks.File": "5.0.0",
           "Swashbuckle.AspNetCore": "6.2.3",
           "Swashbuckle.AspNetCore.Annotations": "6.4.0",
           "glkt.Common": "1.0.0",
@@ -415,6 +413,8 @@
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
+          "Serilog.AspNetCore": "6.0.1",
+          "Serilog.Sinks.File": "5.0.0",
           "glkt.EF": "1.0.0",
           "glkt.Model": "1.0.0"
         },

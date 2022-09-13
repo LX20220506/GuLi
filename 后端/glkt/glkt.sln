@@ -25,11 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glkt.IService", "glky.IServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glkt.Service", "glkt.Service\glkt.Service.csproj", "{106B1BBA-2E51-4FEA-939B-3CE49A5D4617}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glkt.WebApi", "glkt.WebApi\glkt.WebApi.csproj", "{E3B4A00C-F9A5-4E0C-8889-33D314F98157}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glkt.Edu", "glkt.WebApi\glkt.Edu.csproj", "{E3B4A00C-F9A5-4E0C-8889-33D314F98157}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3374A0FF-BD91-4D00-B6B6-DC2B0EE0F0B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glkt.Common", "glkt.Common\glkt.Common.csproj", "{C9444BE3-EDC6-4858-A731-7E4126937405}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "glkt.Common", "glkt.Common\glkt.Common.csproj", "{C9444BE3-EDC6-4858-A731-7E4126937405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "glkt.OSS", "glkt.OSS\glkt.OSS.csproj", "{0B78BBF1-4324-4ED5-A3DA-0919C306E2D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{C9444BE3-EDC6-4858-A731-7E4126937405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9444BE3-EDC6-4858-A731-7E4126937405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9444BE3-EDC6-4858-A731-7E4126937405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B78BBF1-4324-4ED5-A3DA-0919C306E2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B78BBF1-4324-4ED5-A3DA-0919C306E2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B78BBF1-4324-4ED5-A3DA-0919C306E2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B78BBF1-4324-4ED5-A3DA-0919C306E2D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{106B1BBA-2E51-4FEA-939B-3CE49A5D4617} = {9A1D51EC-A5B6-4065-AAB6-F54DEA0CA275}
 		{E3B4A00C-F9A5-4E0C-8889-33D314F98157} = {2C745FB2-4776-4DFD-86A0-090A984F454A}
 		{C9444BE3-EDC6-4858-A731-7E4126937405} = {3374A0FF-BD91-4D00-B6B6-DC2B0EE0F0B7}
+		{0B78BBF1-4324-4ED5-A3DA-0919C306E2D5} = {2C745FB2-4776-4DFD-86A0-090A984F454A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFE293CF-5A40-4DD0-AAE1-CD5E1F5F2777}
