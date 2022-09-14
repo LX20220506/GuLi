@@ -3046,3 +3046,435 @@
 #Pro# {"ElapsedMilliseconds":399.8709,"StatusCode":200,"ContentType":"application/json; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.0","Method":"POST","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/api/eduoss/fileupload/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKH9D64JV3V:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKH9D64JV3V"}
 #Exc# 
 
+
+【INF】2022-09-14 15:04:52.935
+#Msg# Now listening on: http://localhost:8102
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:53.267
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:53.269
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:53.271
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.OSS\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:55.346
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO1:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKM3TM37TO1"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:57.982
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/index.html - - - 200 - text/html;charset=utf-8 2583.1886ms
+#Pro# {"ElapsedMilliseconds":2583.1886,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO1:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKM3TM37TO1"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.090
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/swagger-ui-standalone-preset.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/swagger-ui-standalone-preset.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO4:00000002","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HMKM3TM37TO4"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.093
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/swagger-ui-bundle.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/swagger-ui-bundle.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO3:00000002","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HMKM3TM37TO3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.115
+#Msg# The file /swagger-ui-standalone-preset.js was not modified
+#Pro# {"EventId":{"Id":6,"Name":"FileNotModified"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HMKM3TM37TO4:00000002","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HMKM3TM37TO4"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.115
+#Msg# The file /swagger-ui-bundle.js was not modified
+#Pro# {"EventId":{"Id":6,"Name":"FileNotModified"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HMKM3TM37TO3:00000002","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HMKM3TM37TO3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.138
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/swagger-ui.css - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/swagger-ui.css","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO1:00000003","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HMKM3TM37TO1"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.147
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 56.8079ms
+#Pro# {"ElapsedMilliseconds":56.8079,"StatusCode":304,"ContentType":"application/javascript","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/swagger-ui-standalone-preset.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO4:00000002","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HMKM3TM37TO4"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.148
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 55.4148ms
+#Pro# {"ElapsedMilliseconds":55.4148,"StatusCode":304,"ContentType":"application/javascript","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/swagger-ui-bundle.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO3:00000002","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HMKM3TM37TO3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.166
+#Msg# The file /swagger-ui.css was not modified
+#Pro# {"EventId":{"Id":6,"Name":"FileNotModified"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HMKM3TM37TO1:00000003","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HMKM3TM37TO1"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.182
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/swagger-ui.css - - - 304 - text/css 43.9951ms
+#Pro# {"ElapsedMilliseconds":43.9951,"StatusCode":304,"ContentType":"text/css","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/swagger-ui.css","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO1:00000003","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HMKM3TM37TO1"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.263
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO4:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKM3TM37TO4"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.263
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO3:00000003","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKM3TM37TO3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.297
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 34.4118ms
+#Pro# {"ElapsedMilliseconds":34.4118,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO4:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKM3TM37TO4"}
+#Exc# 
+
+
+【INF】2022-09-14 15:04:58.616
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 353.7929ms
+#Pro# {"ElapsedMilliseconds":353.7929,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO3:00000003","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKM3TM37TO3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:05:00.925
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO3:00000004","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKM3TM37TO3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:05:02.036
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1110.8031ms
+#Pro# {"ElapsedMilliseconds":1110.8031,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3TM37TO3:00000004","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKM3TM37TO3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:50.379
+#Msg# Now listening on: http://localhost:8102
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:50.559
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:50.729
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:50.735
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.OSS\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:52.558
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F3:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKM3VSU65F3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:52.856
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/index.html - - - 200 - text/html;charset=utf-8 300.0687ms
+#Pro# {"ElapsedMilliseconds":300.0687,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F3:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKM3VSU65F3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:54.119
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F3:00000003","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKM3VSU65F3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:54.120
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F5:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKM3VSU65F5"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:54.163
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 42.5560ms
+#Pro# {"ElapsedMilliseconds":42.556,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F5:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKM3VSU65F5"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:54.290
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 171.0555ms
+#Pro# {"ElapsedMilliseconds":171.0555,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F3:00000003","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKM3VSU65F3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:55.543
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F3:00000004","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKM3VSU65F3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:55.654
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.7663ms
+#Pro# {"ElapsedMilliseconds":110.7663,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F3:00000004","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKM3VSU65F3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:55.767
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/favicon-32x32.png - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/favicon-32x32.png","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F3:00000005","RequestPath":"/swagger/favicon-32x32.png","ConnectionId":"0HMKM3VSU65F3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:55.774
+#Msg# The file /favicon-32x32.png was not modified
+#Pro# {"EventId":{"Id":6,"Name":"FileNotModified"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HMKM3VSU65F3:00000005","RequestPath":"/swagger/favicon-32x32.png","ConnectionId":"0HMKM3VSU65F3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:08:55.776
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/favicon-32x32.png - - - 304 - image/png 8.2427ms
+#Pro# {"ElapsedMilliseconds":8.2427,"StatusCode":304,"ContentType":"image/png","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/favicon-32x32.png","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F3:00000005","RequestPath":"/swagger/favicon-32x32.png","ConnectionId":"0HMKM3VSU65F3"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:19.894
+#Msg# Request starting HTTP/1.0 OPTIONS http://localhost:8102/api/eduoss/fileupload/upload - -
+#Pro# {"Protocol":"HTTP/1.0","Method":"OPTIONS","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/api/eduoss/fileupload/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F6:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F6"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:19.901
+#Msg# CORS policy execution successful.
+#Pro# {"EventId":{"Id":4,"Name":"PolicySuccess"},"SourceContext":"Microsoft.AspNetCore.Cors.Infrastructure.CorsService","RequestId":"0HMKM3VSU65F6:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F6"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:19.903
+#Msg# Request finished HTTP/1.0 OPTIONS http://localhost:8102/api/eduoss/fileupload/upload - - - 204 - - 9.2082ms
+#Pro# {"ElapsedMilliseconds":9.2082,"StatusCode":204,"ContentType":null,"ContentLength":null,"Protocol":"HTTP/1.0","Method":"OPTIONS","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/api/eduoss/fileupload/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F6:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F6"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:19.931
+#Msg# Request starting HTTP/1.0 POST http://localhost:8102/api/eduoss/fileupload/upload multipart/form-data;+boundary=----WebKitFormBoundaryq7uBVDyGazNFaVbV 48965
+#Pro# {"Protocol":"HTTP/1.0","Method":"POST","ContentType":"multipart/form-data; boundary=----WebKitFormBoundaryq7uBVDyGazNFaVbV","ContentLength":48965,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/api/eduoss/fileupload/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F7:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F7"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:19.933
+#Msg# CORS policy execution successful.
+#Pro# {"EventId":{"Id":4,"Name":"PolicySuccess"},"SourceContext":"Microsoft.AspNetCore.Cors.Infrastructure.CorsService","RequestId":"0HMKM3VSU65F7:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F7"}
+#Exc# 
+
+
+【WRN】2022-09-14 15:09:19.998
+#Msg# Failed to determine the https port for redirect.
+#Pro# {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HMKM3VSU65F7:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F7"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:20.004
+#Msg# Executing endpoint 'glkt.OSS.Controllers.FileUploadController.Upload (glkt.OSS)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKM3VSU65F7:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F7"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:20.033
+#Msg# Route matched with {action = "Upload", controller = "FileUpload"}. Executing controller action with signature System.Object Upload(Microsoft.AspNetCore.Http.IFormFile) on controller glkt.OSS.Controllers.FileUploadController (glkt.OSS).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"01e0ef85-79ad-4fa1-b34d-d85274f5f871","ActionName":"glkt.OSS.Controllers.FileUploadController.Upload (glkt.OSS)","RequestId":"0HMKM3VSU65F7:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F7"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:20.990
+#Msg# Executing ObjectResult, writing value of type 'glkt.Common.Utils.Result.Result'.
+#Pro# {"EventId":{"Id":1,"Name":"ObjectResultExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor","ActionId":"01e0ef85-79ad-4fa1-b34d-d85274f5f871","ActionName":"glkt.OSS.Controllers.FileUploadController.Upload (glkt.OSS)","RequestId":"0HMKM3VSU65F7:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F7"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:21.003
+#Msg# Executed action glkt.OSS.Controllers.FileUploadController.Upload (glkt.OSS) in 960.265ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKM3VSU65F7:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F7"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:21.006
+#Msg# Executed endpoint 'glkt.OSS.Controllers.FileUploadController.Upload (glkt.OSS)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKM3VSU65F7:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F7"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:21.009
+#Msg# Request finished HTTP/1.0 POST http://localhost:8102/api/eduoss/fileupload/upload multipart/form-data;+boundary=----WebKitFormBoundaryq7uBVDyGazNFaVbV 48965 - 200 - application/json;+charset=utf-8 1078.0210ms
+#Pro# {"ElapsedMilliseconds":1078.021,"StatusCode":200,"ContentType":"application/json; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.0","Method":"POST","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/api/eduoss/fileupload/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM3VSU65F7:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM3VSU65F7"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:56.086
+#Msg# Now listening on: http://localhost:8102
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:56.341
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:56.355
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:56.364
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.OSS\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:56.506
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L6:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKM40GEA5L6"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:56.793
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/index.html - - - 200 - text/html;charset=utf-8 291.4507ms
+#Pro# {"ElapsedMilliseconds":291.4507,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L6:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKM40GEA5L6"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:56.841
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L6:00000003","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKM40GEA5L6"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:56.841
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L7:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKM40GEA5L7"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:56.845
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 4.1270ms
+#Pro# {"ElapsedMilliseconds":4.127,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L7:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKM40GEA5L7"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:56.869
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.0786ms
+#Pro# {"ElapsedMilliseconds":28.0786,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L6:00000003","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKM40GEA5L6"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:57.162
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L6:00000004","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKM40GEA5L6"}
+#Exc# 
+
+
+【INF】2022-09-14 15:09:57.253
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.2342ms
+#Pro# {"ElapsedMilliseconds":91.2342,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L6:00000004","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKM40GEA5L6"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:14.524
+#Msg# Request starting HTTP/1.0 OPTIONS http://localhost:8102/api/eduoss/fileupload/upload - -
+#Pro# {"Protocol":"HTTP/1.0","Method":"OPTIONS","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/api/eduoss/fileupload/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L8:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L8"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:14.532
+#Msg# CORS policy execution successful.
+#Pro# {"EventId":{"Id":4,"Name":"PolicySuccess"},"SourceContext":"Microsoft.AspNetCore.Cors.Infrastructure.CorsService","RequestId":"0HMKM40GEA5L8:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L8"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:14.535
+#Msg# Request finished HTTP/1.0 OPTIONS http://localhost:8102/api/eduoss/fileupload/upload - - - 204 - - 11.0051ms
+#Pro# {"ElapsedMilliseconds":11.0051,"StatusCode":204,"ContentType":null,"ContentLength":null,"Protocol":"HTTP/1.0","Method":"OPTIONS","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/api/eduoss/fileupload/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L8:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L8"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:14.555
+#Msg# Request starting HTTP/1.0 POST http://localhost:8102/api/eduoss/fileupload/upload multipart/form-data;+boundary=----WebKitFormBoundaryR9jTUzWoJRloXEpg 48965
+#Pro# {"Protocol":"HTTP/1.0","Method":"POST","ContentType":"multipart/form-data; boundary=----WebKitFormBoundaryR9jTUzWoJRloXEpg","ContentLength":48965,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/api/eduoss/fileupload/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L9:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L9"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:14.558
+#Msg# CORS policy execution successful.
+#Pro# {"EventId":{"Id":4,"Name":"PolicySuccess"},"SourceContext":"Microsoft.AspNetCore.Cors.Infrastructure.CorsService","RequestId":"0HMKM40GEA5L9:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L9"}
+#Exc# 
+
+
+【WRN】2022-09-14 15:10:14.573
+#Msg# Failed to determine the https port for redirect.
+#Pro# {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HMKM40GEA5L9:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L9"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:14.581
+#Msg# Executing endpoint 'glkt.OSS.Controllers.FileUploadController.Upload (glkt.OSS)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKM40GEA5L9:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L9"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:14.607
+#Msg# Route matched with {action = "Upload", controller = "FileUpload"}. Executing controller action with signature System.Object Upload(Microsoft.AspNetCore.Http.IFormFile) on controller glkt.OSS.Controllers.FileUploadController (glkt.OSS).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"8acab123-d0ae-4c03-8438-8f22a2045860","ActionName":"glkt.OSS.Controllers.FileUploadController.Upload (glkt.OSS)","RequestId":"0HMKM40GEA5L9:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L9"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:15.090
+#Msg# Executing ObjectResult, writing value of type 'glkt.Common.Utils.Result.Result'.
+#Pro# {"EventId":{"Id":1,"Name":"ObjectResultExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor","ActionId":"8acab123-d0ae-4c03-8438-8f22a2045860","ActionName":"glkt.OSS.Controllers.FileUploadController.Upload (glkt.OSS)","RequestId":"0HMKM40GEA5L9:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L9"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:15.104
+#Msg# Executed action glkt.OSS.Controllers.FileUploadController.Upload (glkt.OSS) in 485.6097ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKM40GEA5L9:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L9"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:15.108
+#Msg# Executed endpoint 'glkt.OSS.Controllers.FileUploadController.Upload (glkt.OSS)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKM40GEA5L9:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L9"}
+#Exc# 
+
+
+【INF】2022-09-14 15:10:15.111
+#Msg# Request finished HTTP/1.0 POST http://localhost:8102/api/eduoss/fileupload/upload multipart/form-data;+boundary=----WebKitFormBoundaryR9jTUzWoJRloXEpg 48965 - 200 - application/json;+charset=utf-8 556.2116ms
+#Pro# {"ElapsedMilliseconds":556.2116,"StatusCode":200,"ContentType":"application/json; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.0","Method":"POST","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/api/eduoss/fileupload/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L9:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L9"}
+#Exc# 
+

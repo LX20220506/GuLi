@@ -59,7 +59,7 @@ namespace ggkt.Service.Base
 
         public virtual async Task<PageList> Page(int index, int size, Expression<Func<T, bool>> expression)
         {
-            var data =await _repository.GetAllAsync().Where(expression).Skip(index).Take(size).ToListAsync();
+            var data =await _repository.GetAllAsync().Where(expression).Skip((index-1)*size).Take(size).ToListAsync();
             return new PageList(data,index,size,data.Count);
         }
 

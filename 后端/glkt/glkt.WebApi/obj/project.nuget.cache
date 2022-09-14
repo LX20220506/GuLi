@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "feV0rxQJMz87mndnBqzHtN/r113TKB4u3gyC5OixPDVYBoRLjZeDaDZuWwi+dD5xUrunANWUV1dEkPqPOodVGA==",
+  "dgSpecHash": "p2s0MaB/rKFNjs6BX0RNugMxU8JitTyQAygejwKFWOjuF3VjcSvzrkYwkQ+MYPIDNCRDrWe1vqcruD6vVcPGAQ==",
   "success": true,
   "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.WebApi\\glkt.Edu.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\miniexcel\\1.26.7\\miniexcel.1.26.7.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.2\\pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",

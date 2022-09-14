@@ -1,0 +1,17 @@
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\bin\Debug\net6.0\MiniExcelDemo.exe
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\bin\Debug\net6.0\MiniExcelDemo.deps.json
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\bin\Debug\net6.0\MiniExcelDemo.runtimeconfig.json
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\bin\Debug\net6.0\MiniExcelDemo.dll
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\bin\Debug\net6.0\MiniExcelDemo.pdb
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\bin\Debug\net6.0\MiniExcel.dll
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\MiniExcelDemo.csproj.AssemblyReference.cache
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\MiniExcelDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\MiniExcelDemo.AssemblyInfoInputs.cache
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\MiniExcelDemo.AssemblyInfo.cs
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\MiniExcelDemo.csproj.CoreCompileInputs.cache
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\MiniExcelDemo.csproj.CopyComplete
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\MiniExcelDemo.dll
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\refint\MiniExcelDemo.dll
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\MiniExcelDemo.pdb
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\MiniExcelDemo.genruntimeconfig.cache
+E:\demo\谷粒课堂\后端\glkt\MiniExcelDemo\obj\Debug\net6.0\ref\MiniExcelDemo.dll

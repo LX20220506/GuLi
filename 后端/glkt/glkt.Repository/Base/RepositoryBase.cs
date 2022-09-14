@@ -59,7 +59,7 @@ namespace ggkt.Repository.Base
         public PageList Page(int index, int size, Expression<Func<T, bool>> expression)
         {
             var count = _dbContext.Set<T>().Count();
-            IQueryable<T> data = _dbContext.Set<T>().Where(expression).Skip(index).Take(size);
+            IQueryable<T> data = _dbContext.Set<T>().Where(expression).Skip((index - 1) * size).Take(size);
 
             return new PageList(data, index, size, count);
         }
@@ -71,7 +71,7 @@ namespace ggkt.Repository.Base
             // 因为ef使用的是反向工程，所有并没有ModelBase类或者接口，
             // 这里最好对泛型<T>做一个ModelBase的约束
             // 这样就可以使用条件排序了
-            IEnumerable<T> data = await _dbContext.Set<T>().Skip(index).Take(size).ToListAsync();
+            IEnumerable<T> data = await _dbContext.Set<T>().Skip((index-1) * size).Take(size).ToListAsync();
 
             return new PageList(data, index, size, count);
         }

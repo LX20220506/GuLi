@@ -38,7 +38,7 @@ namespace glkt.Edu.Controllers
             return ApiResult.Ok(pagelist);
         }
 
-        [HttpPost("search/{index}/{size}")]
+        [HttpPost("{index}/{size}")]
         [SwaggerOperation(Summary = "根据筛选条件查询讲师")]
         public async Task<dynamic> SearchTeacher([FromRoute] int index, [FromRoute] int size,EduTeacherSearchRequest? searchObj)
         {

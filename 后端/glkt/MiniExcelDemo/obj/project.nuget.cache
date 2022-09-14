@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y2U0HltTntgNT8myzRlTDQltGfbFWuDm8pwEbrnF2yqjIsMsTKSe9GkL8hiL4hOemZnvPSeax0Hvrx+HapyurA==",
+  "success": true,
+  "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\MiniExcelDemo\\MiniExcelDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1011751\\.nuget\\packages\\miniexcel\\1.26.7\\miniexcel.1.26.7.nupkg.sha512"
+  ],
+  "logs": []
+}

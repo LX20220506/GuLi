@@ -12,9 +12,12 @@ export default {
       });
     }else{
       return request({
-        url: `${api_name}/search`,
+        url: `${api_name}/${page}/${limit}`,
         method: "post",
-        data: searchObj
+        data: JSON.stringify(searchObj),
+        // 注意，这里使用axios的post提交时，Content-Type是application/x-www-form-urlencoded
+        //      所有一直报415的错误，因此在post提交时，要将Content-Type改为application/json; charset=utf-8
+        headers:{"Content-Type":"application/json; charset=utf-8"} 
       });
     }
 

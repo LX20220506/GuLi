@@ -103,9 +103,7 @@ export default {
         name:"",
         level:"",
         begin:"",
-        end:"",
-        index:1,
-        size:10
+        end:""
       }, // 查询条件
     };
   },
@@ -120,7 +118,7 @@ export default {
       // 调用api层获取数据库中的数据
       this.page = page;
       this.listLoading = true;
-      this.searchObj.index=page;
+
       teacher
         .getPageList(this.page, this.limit, this.searchObj)
         .then((response) => {

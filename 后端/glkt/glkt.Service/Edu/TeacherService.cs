@@ -56,30 +56,32 @@ namespace glkt.Service.Edu
 
             IQueryable<EduTeacher> data = _repository.GetAllAsync();
 
-            Expression<Func<EduTeacher, bool>> expression = null;
 
             if (!string.IsNullOrEmpty(searchObj.name))
             {
-                expression = t => t.Name == searchObj.name;
+                data =data.Where(t => t.Name == searchObj.name);
             }
 
-            if (searchObj.level != null&& searchObj.level!=null)
+            if (searchObj.level != null && searchObj.level != 0)
+            //if (!string.IsNullOrEmpty(searchObj.level))
             {
-                expression = t => t.Level == searchObj.level;
+                data = data.Where(t => t.Level == searchObj.level);
             }
 
             if (!string.IsNullOrEmpty(searchObj.begin) )
             {
-                expression = t => t.GmtCreate >= DateTime.Parse(searchObj.begin);
+                data = data.Where(t => t.GmtCreate >= DateTime.Parse(searchObj.begin));
             }
 
             if (!string.IsNullOrEmpty(searchObj.end ))
             {
-                expression = t => t.GmtCreate <= DateTime.Parse(searchObj.end);
+                data = data.Where(t => t.GmtCreate <= DateTime.Parse(searchObj.end));
             }
 
-            List<EduTeacher> list = await data.Where(expression).OrderBy(t => t.GmtCreate).Skip(index).Take(size).ToListAsync();
+            // 执行查询操作
+            List<EduTeacher> list = await data.OrderBy(t => t.GmtCreate).Skip((index-1)*size).Take(size).ToListAsync();
 
+            // 封装数据
             return new PageList(list,index,size,list.Count);
         }
 
