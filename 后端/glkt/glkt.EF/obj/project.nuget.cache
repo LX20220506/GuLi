@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eoCzR9Plai5Ie60LlsF62SgNMzMBDvTNWcu59jGOUkyKUvc+gdXWc3lRjxUqWLPzlzWc6ZHsjL6shxV3aq4fNw==",
+  "dgSpecHash": "vuicaNwYaxRTtKl0HMtCNMrW9ijFuP/h7DBkWYvO6cpWjo2ly4uegC6NkKHW8X0LTGbGfuikn2PgUxLCDzh4rg==",
   "success": true,
   "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\miniexcel\\1.26.7\\miniexcel.1.26.7.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.2\\pomelo.entityframeworkcore.mysql.6.0.2.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

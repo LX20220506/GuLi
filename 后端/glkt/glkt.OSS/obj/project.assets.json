@@ -443,6 +443,15 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
+      "MiniExcel/1.26.7": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/MiniExcel.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/MiniExcel.dll": {}
+        }
+      },
       "MySqlConnector/2.1.2": {
         "type": "package",
         "compile": {
@@ -886,7 +895,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "MiniExcel": "1.26.7"
         },
         "compile": {
           "bin/placeholder/glkt.Model.dll": {}
@@ -914,6 +924,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Aliyun.OSS.SDK.NetCore": "2.13.0",
+          "MiniExcel": "1.26.7",
           "glkt.IService": "1.0.0",
           "glkt.Repository": "1.0.0"
         },
@@ -1766,6 +1777,21 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Common.resources.dll",
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Shared.resources.dll",
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
+      ]
+    },
+    "MiniExcel/1.26.7": {
+      "sha512": "ba/ibhLU0g0QEfa38/puX4SzmdHxkZ/t2k57zODPXs8flR828fLzXRJA/ODGMatoP5TbVLMtsUfp49xXen4zbw==",
+      "type": "package",
+      "path": "miniexcel/1.26.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/MiniExcel.dll",
+        "lib/net5.0/MiniExcel.dll",
+        "lib/netstandard2.0/MiniExcel.dll",
+        "miniexcel.1.26.7.nupkg.sha512",
+        "miniexcel.nuspec"
       ]
     },
     "MySqlConnector/2.1.2": {

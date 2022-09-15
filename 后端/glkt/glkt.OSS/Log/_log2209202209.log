@@ -3478,3 +3478,99 @@
 #Pro# {"ElapsedMilliseconds":556.2116,"StatusCode":200,"ContentType":"application/json; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.0","Method":"POST","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/api/eduoss/fileupload/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM40GEA5L9:00000002","RequestPath":"/api/eduoss/fileupload/upload","ConnectionId":"0HMKM40GEA5L9"}
 #Exc# 
 
+
+【INF】2022-09-14 16:45:50.395
+#Msg# Now listening on: http://localhost:8102
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:50.555
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:50.557
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:50.558
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.OSS\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:54.279
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM5M3ECF2I:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKM5M3ECF2I"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:55.803
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/index.html - - - 200 - text/html;charset=utf-8 1527.0062ms
+#Pro# {"ElapsedMilliseconds":1527.0062,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM5M3ECF2I:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKM5M3ECF2I"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:55.985
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM5M3ECF2I:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKM5M3ECF2I"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:55.991
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 6.1241ms
+#Pro# {"ElapsedMilliseconds":6.1241,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM5M3ECF2I:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKM5M3ECF2I"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:56.002
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM5M3ECF2I:00000004","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKM5M3ECF2I"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:56.403
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 400.8773ms
+#Pro# {"ElapsedMilliseconds":400.8773,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM5M3ECF2I:00000004","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKM5M3ECF2I"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:56.786
+#Msg# Request starting HTTP/1.1 GET http://localhost:8102/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM5M3ECF2I:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKM5M3ECF2I"}
+#Exc# 
+
+
+【INF】2022-09-14 16:45:57.245
+#Msg# Request finished HTTP/1.1 GET http://localhost:8102/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 459.4690ms
+#Pro# {"ElapsedMilliseconds":459.469,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8102","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKM5M3ECF2I:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKM5M3ECF2I"}
+#Exc# 
+
+
+【INF】2022-09-14 16:47:51.228
+#Msg# Now listening on: http://localhost:8102
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 16:47:51.507
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 16:47:51.511
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-14 16:47:51.514
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.OSS\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+

@@ -469,7 +469,8 @@
       },
       "glkt.Model/1.0.0": {
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "MiniExcel": "1.26.7"
         },
         "runtime": {
           "glkt.Model.dll": {}
@@ -487,6 +488,7 @@
       "glkt.Service/1.0.0": {
         "dependencies": {
           "Aliyun.OSS.SDK.NetCore": "2.13.0",
+          "MiniExcel": "1.26.7",
           "glkt.IService": "1.0.0",
           "glkt.Repository": "1.0.0"
         },

@@ -17,6 +17,7 @@ namespace glkt.Edu.Extensions
         /// <returns></returns>
         public static IServiceCollection AddEduService(this IServiceCollection services) {
             EduConfigExtensions.AddEduTeacherService(services);
+            EduConfigExtensions.AddEduSebjectService(services);
             return services;  
         }
 
@@ -30,7 +31,20 @@ namespace glkt.Edu.Extensions
             services.AddScoped<ITeacherRepository, TeacherRepository>();
             services.AddScoped<ITeacherService, TeacherService>();
             return services;
-        } 
+        }
+
+        /// <summary>
+        /// 添加Sebject的相关服务
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
+        public static IServiceCollection AddEduSebjectService(IServiceCollection services) {
+
+            services.AddScoped<ISubjectRepository, SubjectRepository>();
+            services.AddScoped<ISubjectService, SubjectService>();
+
+            return services;
+        }
 
     }
 }

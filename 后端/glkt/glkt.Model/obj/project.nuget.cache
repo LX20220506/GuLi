@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LVWk+Q7ZRoAcCoXKqyi06BY4aIEqV6nc1uGnv8IyeUNDfclAmssI/zvR7+ECXzO9M12OAy36QRNDrsirvZ0Y8w==",
+  "dgSpecHash": "19xiTP9yUnbrW0iZ4GFTQQLtl9mD3XntvtGCLRAd924E/Ezuzev6P0U2PqvkK3zA44/2iwSSDxEzNI0xVk3oIA==",
   "success": true,
   "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Model\\glkt.Model.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\1011751\\.nuget\\packages\\miniexcel\\1.26.7\\miniexcel.1.26.7.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
