@@ -302,6 +302,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "MiniExcel": {
+              "target": "Package",
+              "version": "[1.26.7, )"
             }
           },
           "imports": [
@@ -529,6 +533,10 @@
             "Aliyun.OSS.SDK.NetCore": {
               "target": "Package",
               "version": "[2.13.0, )"
+            },
+            "MiniExcel": {
+              "target": "Package",
+              "version": "[1.26.7, )"
             }
           },
           "imports": [

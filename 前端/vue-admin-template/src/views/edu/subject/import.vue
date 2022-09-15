@@ -5,13 +5,7 @@
         <el-tag type="info">excel模版说明</el-tag>
         <el-tag>
           <i class="el-icon-download" />
-          <a
-            :href="
-              OSS_PATH +
-              '/excel/%E8%AF%BE%E7%A8%8B%E5%88%86%E7%B1%BB%E5%88%97%E8%A1%A8%E6%A8%A1%E6%9D%BF.xls'
-            "
-            >点击下载模版</a
-          >
+          <a :href="OSS_PATH +'/excel/SubjectTemplate.xlsx'">点击下载模版</a>
         </el-tag>
       </el-form-item>
 
@@ -23,7 +17,7 @@
           :on-error="fileUploadError"
           :disabled="importBtnDisabled"
           :limit="1"
-          :action="BASE_API + '/admin/edu/subject/import'"
+          :action="BASE_API + '/subject/batchimport'"
           name="file"
           accept="application/vnd.ms-excel"
         >
@@ -52,7 +46,7 @@ export default {
   data() {
     return {
       BASE_API: process.env.VUE_APP_BASE_API, // 接口API地址
-      OSS_PATH: process.env.OSS_PATH, // 阿里云OSS地址
+      OSS_PATH: process.env.VUE_APP_OSS_PATH, // 阿里云OSS地址
       fileUploadBtnText: "上传到服务器", // 按钮文字
       importBtnDisabled: false, // 按钮是否禁用,    
       loading: false,
