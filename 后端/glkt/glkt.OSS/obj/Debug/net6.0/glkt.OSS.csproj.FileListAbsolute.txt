@@ -61,3 +61,4 @@ E:\demo\谷粒课堂\后端\glkt\glkt.OSS\obj\Debug\net6.0\glkt.OSS.pdb
 E:\demo\谷粒课堂\后端\glkt\glkt.OSS\obj\Debug\net6.0\glkt.OSS.genruntimeconfig.cache
 E:\demo\谷粒课堂\后端\glkt\glkt.OSS\obj\Debug\net6.0\ref\glkt.OSS.dll
 E:\demo\谷粒课堂\后端\glkt\glkt.OSS\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.OSS\bin\Debug\net6.0\MiniExcel.dll

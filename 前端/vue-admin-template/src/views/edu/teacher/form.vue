@@ -51,7 +51,7 @@
           :width="300"
           :height="300"
           :key="imagecropperKey"
-          :url="BASE_API + '/eduoss/fileupload/upload'"
+          :url="BASE_API + '/eduoss/fileupload/upload?host=TeacherHeadPortrait'"
           field="file"
           @close="close"
           @crop-upload-success="cropSuccess"

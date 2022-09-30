@@ -49,6 +49,17 @@ namespace glkt.Common.Utils.Result
             };
         }
 
+        public static Result Ok(int code, dynamic data)
+        {
+            return new Result
+            {
+                Code = code,
+                Message = "成功",
+                Success = true,
+                Data = data
+            };
+        }
+
         public static Result Ok(int code,string message, dynamic data)
         {
             return new Result

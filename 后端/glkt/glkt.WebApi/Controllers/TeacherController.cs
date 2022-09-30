@@ -27,8 +27,19 @@ namespace glkt.Edu.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("{index}/{size}")]
+        [HttpGet]
         [SwaggerOperation(Summary = "查找所有讲师")]
+        public async Task<dynamic> GetTeacherList()
+        {
+            var list = await _teacherService.GetAllAsync();
+
+            IEnumerable<EduTeacherResponse> responseList = _mapper.Map<IEnumerable<EduTeacherResponse>>(list);
+
+            return ApiResult.Ok(responseList);
+        }
+
+        [HttpGet("{index}/{size}")]
+        [SwaggerOperation(Summary = "查找所有讲师（分页）")]
         public async Task<dynamic> FindAllTeacher(int index, int size)
         {
             PageList pagelist = await _teacherService.Page(index, size);
@@ -39,7 +50,7 @@ namespace glkt.Edu.Controllers
         }
 
         [HttpPost("{index}/{size}")]
-        [SwaggerOperation(Summary = "根据筛选条件查询讲师")]
+        [SwaggerOperation(Summary = "根据筛选条件查询讲师（分页+查询）")]
         public async Task<dynamic> SearchTeacher([FromRoute] int index, [FromRoute] int size,EduTeacherSearchRequest? searchObj)
         {
 

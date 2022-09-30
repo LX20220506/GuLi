@@ -27,3 +27,7 @@ E:\demo\谷粒课堂\后端\glkt\glkt.Common\bin\Debug\net6.0\glkt.Model.pdb
 E:\demo\谷粒课堂\后端\glkt\glkt.Common\obj\Debug\net6.0\glkt.Common.csproj.CopyComplete
 E:\demo\谷粒课堂\后端\glkt\glkt.Common\bin\Debug\net6.0\glkt.EF.dll
 E:\demo\谷粒课堂\后端\glkt\glkt.Common\bin\Debug\net6.0\glkt.EF.pdb
+E:\demo\谷粒课堂\后端\glkt\glkt.Common\bin\Debug\net6.0\aliyun-net-sdk-core.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.Common\bin\Debug\net6.0\aliyun-net-sdk-vod.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.Common\bin\Debug\net6.0\aliyun-net-sdk-core.pdb
+E:\demo\谷粒课堂\后端\glkt\glkt.Common\bin\Debug\net6.0\aliyun-net-sdk-vod.pdb

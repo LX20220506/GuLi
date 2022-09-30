@@ -46,3 +46,7 @@ D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Service\obj\Debug\net6.0\glkt
 D:\实战项目\谷粒学院\GuLi\后端\glkt\glkt.Service\obj\Debug\net6.0\ref\glkt.Service.dll
 E:\demo\谷粒课堂\后端\glkt\glkt.Service\bin\Debug\net6.0\glkt.Common.dll
 E:\demo\谷粒课堂\后端\glkt\glkt.Service\bin\Debug\net6.0\glkt.Common.pdb
+E:\demo\谷粒课堂\后端\glkt\glkt.Service\bin\Debug\net6.0\aliyun-net-sdk-core.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.Service\bin\Debug\net6.0\aliyun-net-sdk-vod.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.Service\bin\Debug\net6.0\aliyun-net-sdk-core.pdb
+E:\demo\谷粒课堂\后端\glkt\glkt.Service\bin\Debug\net6.0\aliyun-net-sdk-vod.pdb

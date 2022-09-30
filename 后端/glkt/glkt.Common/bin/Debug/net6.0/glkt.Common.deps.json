@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "glkt.Common/1.0.0": {
         "dependencies": {
+          "Aliyun.OSS.SDK.NetCore": "2.13.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
@@ -15,11 +16,21 @@
           "Serilog.Sinks.File": "5.0.0",
           "Swashbuckle.AspNetCore": "6.2.3",
           "Swashbuckle.AspNetCore.Annotations": "6.4.0",
+          "aliyun-net-sdk-core": "1.5.11",
+          "aliyun-net-sdk-vod": "2.16.10",
           "glkt.EF": "1.0.0",
           "glkt.Model": "1.0.0"
         },
         "runtime": {
           "glkt.Common.dll": {}
+        }
+      },
+      "Aliyun.OSS.SDK.NetCore/2.13.0": {
+        "runtime": {
+          "lib/netstandard2.0/Aliyun.OSS.Core.dll": {
+            "assemblyVersion": "2.13.0.0",
+            "fileVersion": "2.13.0.0"
+          }
         }
       },
       "AutoMapper/11.0.0": {
@@ -417,6 +428,20 @@
           }
         }
       },
+      "aliyun-net-sdk-core/1.5.11": {
+        "runtime": {
+          "aliyun-net-sdk-core.dll": {}
+        }
+      },
+      "aliyun-net-sdk-vod/2.16.10": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "aliyun-net-sdk-core": "1.5.11"
+        },
+        "runtime": {
+          "aliyun-net-sdk-vod.dll": {}
+        }
+      },
       "glkt.EF/1.0.0": {
         "dependencies": {
           "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
@@ -443,6 +468,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Aliyun.OSS.SDK.NetCore/2.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ElvJwTAdBqFmgb7K4PdxDXPFbOBCIUI5OvCOMfCoUoDL21aivtWMFUtU1v4Dxc2wcrN8XQdY1EKeGFhJK/zVyQ==",
+      "path": "aliyun.oss.sdk.netcore/2.13.0",
+      "hashPath": "aliyun.oss.sdk.netcore.2.13.0.nupkg.sha512"
     },
     "AutoMapper/11.0.0": {
       "type": "package",
@@ -793,6 +825,16 @@
       "sha512": "sha512-OjNP2vqNEHvAsdYQ9CHn1s3RfLzL9jtxTzYSrM1v8u6kIc05iOpFgTLq4ROT9ohffTVjaePvHHUYd98w65N/xA==",
       "path": "topage/2.0.1",
       "hashPath": "topage.2.0.1.nupkg.sha512"
+    },
+    "aliyun-net-sdk-core/1.5.11": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "aliyun-net-sdk-vod/2.16.10": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "glkt.EF/1.0.0": {
       "type": "project",

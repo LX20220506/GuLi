@@ -1,0 +1,1521 @@
+﻿
+【INF】2022-09-23 10:39:15.831
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:16.130
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:16.136
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:16.138
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:18.053
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EN:00000002","RequestPath":"/swagger","ConnectionId":"0HMKT1J7DK7EN"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:18.412
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger - - - 301 0 - 363.4136ms
+#Pro# {"ElapsedMilliseconds":363.4136,"StatusCode":301,"ContentType":null,"ContentLength":0,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EN:00000002","RequestPath":"/swagger","ConnectionId":"0HMKT1J7DK7EN"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:18.457
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EN:00000003","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT1J7DK7EN"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.142
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 1684.9853ms
+#Pro# {"ElapsedMilliseconds":1684.9853,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EN:00000003","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT1J7DK7EN"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.183
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/swagger-ui.css - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/swagger-ui.css","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EN:00000004","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HMKT1J7DK7EN"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.210
+#Msg# Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+#Pro# {"EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HMKT1J7DK7EN:00000004","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HMKT1J7DK7EN"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.214
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/swagger-ui.css - - - 200 143632 text/css 30.2884ms
+#Pro# {"ElapsedMilliseconds":30.2884,"StatusCode":200,"ContentType":"text/css","ContentLength":143632,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/swagger-ui.css","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EN:00000004","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HMKT1J7DK7EN"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.292
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/swagger-ui-bundle.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/swagger-ui-bundle.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EN:00000005","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HMKT1J7DK7EN"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.294
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/swagger-ui-standalone-preset.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/swagger-ui-standalone-preset.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EO:00000002","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HMKT1J7DK7EO"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.298
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EP:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT1J7DK7EP"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.305
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EQ:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT1J7DK7EQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.309
+#Msg# Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+#Pro# {"EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HMKT1J7DK7EN:00000005","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HMKT1J7DK7EN"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.318
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 20.4544ms
+#Pro# {"ElapsedMilliseconds":20.4544,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EP:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT1J7DK7EP"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.328
+#Msg# Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+#Pro# {"EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HMKT1J7DK7EO:00000002","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HMKT1J7DK7EO"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.368
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 75.3784ms
+#Pro# {"ElapsedMilliseconds":75.3784,"StatusCode":200,"ContentType":"application/javascript","ContentLength":1092889,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/swagger-ui-bundle.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EN:00000005","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HMKT1J7DK7EN"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.390
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 96.1141ms
+#Pro# {"ElapsedMilliseconds":96.1141,"StatusCode":200,"ContentType":"application/javascript","ContentLength":337162,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/swagger-ui-standalone-preset.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EO:00000002","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HMKT1J7DK7EO"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:20.734
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 428.9613ms
+#Pro# {"ElapsedMilliseconds":428.9613,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EQ:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT1J7DK7EQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:21.039
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EQ:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT1J7DK7EQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:21.231
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 192.0030ms
+#Pro# {"ElapsedMilliseconds":192.003,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EQ:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT1J7DK7EQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:22.090
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/favicon-32x32.png - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/favicon-32x32.png","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EQ:00000004","RequestPath":"/swagger/favicon-32x32.png","ConnectionId":"0HMKT1J7DK7EQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:22.092
+#Msg# Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+#Pro# {"EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HMKT1J7DK7EQ:00000004","RequestPath":"/swagger/favicon-32x32.png","ConnectionId":"0HMKT1J7DK7EQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:39:22.096
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/favicon-32x32.png - - - 200 628 image/png 5.2243ms
+#Pro# {"ElapsedMilliseconds":5.2243,"StatusCode":200,"ContentType":"image/png","ContentLength":628,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/favicon-32x32.png","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7EQ:00000004","RequestPath":"/swagger/favicon-32x32.png","ConnectionId":"0HMKT1J7DK7EQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:40:03.999
+#Msg# Request starting HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryyV2MNVcSDASXSAp6 2211846
+#Pro# {"Protocol":"HTTP/1.1","Method":"POST","ContentType":"multipart/form-data; boundary=----WebKitFormBoundaryyV2MNVcSDASXSAp6","ContentLength":2211846,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7ER:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1J7DK7ER"}
+#Exc# 
+
+
+【WRN】2022-09-23 10:40:04.156
+#Msg# Failed to determine the https port for redirect.
+#Pro# {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HMKT1J7DK7ER:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1J7DK7ER"}
+#Exc# 
+
+
+【INF】2022-09-23 10:40:04.207
+#Msg# Executing endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT1J7DK7ER:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1J7DK7ER"}
+#Exc# 
+
+
+【INF】2022-09-23 10:40:04.491
+#Msg# Route matched with {action = "UploadVideo", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[glkt.Common.Utils.Result.Result] UploadVideo(Microsoft.AspNetCore.Http.IFormFile) on controller glkt.Vod.Controllers.VideoController (glkt.Vod).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"5b970547-ebeb-47bd-81b7-427dabaa5ec1","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT1J7DK7ER:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1J7DK7ER"}
+#Exc# 
+
+
+【INF】2022-09-23 10:40:04.574
+#Msg# Executed action glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod) in 73.5466ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKT1J7DK7ER:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1J7DK7ER"}
+#Exc# 
+
+
+【INF】2022-09-23 10:40:04.580
+#Msg# Executed endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT1J7DK7ER:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1J7DK7ER"}
+#Exc# 
+
+
+【ERR】2022-09-23 10:40:05.013
+#Msg# An unhandled exception has occurred while executing the request.
+#Pro# {"EventId":{"Id":1,"Name":"UnhandledException"},"SourceContext":"Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware","RequestId":"0HMKT1J7DK7ER:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1J7DK7ER"}
+#Exc# System.InvalidOperationException: Unable to resolve service for type 'glkt.Service.Edu.VideorService' while attempting to activate 'glkt.Vod.Controllers.VideoController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+
+
+【INF】2022-09-23 10:40:05.040
+#Msg# Request finished HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryyV2MNVcSDASXSAp6 2211846 - 500 - text/plain;+charset=utf-8 1040.9380ms
+#Pro# {"ElapsedMilliseconds":1040.938,"StatusCode":500,"ContentType":"text/plain; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"POST","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1J7DK7ER:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1J7DK7ER"}
+#Exc# 
+
+
+【INF】2022-09-23 10:40:05.051
+#Msg# Connection id "0HMKT1J7DK7ER", Request id "0HMKT1J7DK7ER:00000002": the application completed without reading the entire request body.
+#Pro# {"EventId":{"Id":32,"Name":"RequestBodyNotEntirelyRead"},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:14.753
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:14.821
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:14.823
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:14.824
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:15.202
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1O81097H:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT1O81097H"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:15.523
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 326.5909ms
+#Pro# {"ElapsedMilliseconds":326.5909,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1O81097H:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT1O81097H"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:15.542
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1O81097I:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT1O81097I"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:15.545
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1O81097H:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT1O81097H"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:15.549
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 4.0448ms
+#Pro# {"ElapsedMilliseconds":4.0448,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1O81097H:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT1O81097H"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:15.578
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.9000ms
+#Pro# {"ElapsedMilliseconds":35.9,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1O81097I:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT1O81097I"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:15.826
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1O81097I:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT1O81097I"}
+#Exc# 
+
+
+【INF】2022-09-23 10:48:15.982
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 156.1017ms
+#Pro# {"ElapsedMilliseconds":156.1017,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1O81097I:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT1O81097I"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:14.617
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:14.671
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:14.673
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:14.674
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:15.455
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1OPR8VVP:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT1OPR8VVP"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:16.033
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 583.1356ms
+#Pro# {"ElapsedMilliseconds":583.1356,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1OPR8VVP:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT1OPR8VVP"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:16.079
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1OPR8VVP:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT1OPR8VVP"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:16.083
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1OPR8VVQ:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT1OPR8VVQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:16.213
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 133.9212ms
+#Pro# {"ElapsedMilliseconds":133.9212,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1OPR8VVP:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT1OPR8VVP"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:16.279
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 195.9590ms
+#Pro# {"ElapsedMilliseconds":195.959,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1OPR8VVQ:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT1OPR8VVQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:16.627
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1OPR8VVQ:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT1OPR8VVQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:17.131
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 503.2043ms
+#Pro# {"ElapsedMilliseconds":503.2043,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1OPR8VVQ:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT1OPR8VVQ"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:24.573
+#Msg# Request starting HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryDaalHCa329a2pd5j 2211846
+#Pro# {"Protocol":"HTTP/1.1","Method":"POST","ContentType":"multipart/form-data; boundary=----WebKitFormBoundaryDaalHCa329a2pd5j","ContentLength":2211846,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1OPR8VVR:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1OPR8VVR"}
+#Exc# 
+
+
+【WRN】2022-09-23 10:49:24.591
+#Msg# Failed to determine the https port for redirect.
+#Pro# {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HMKT1OPR8VVR:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1OPR8VVR"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:24.597
+#Msg# Executing endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT1OPR8VVR:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1OPR8VVR"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:24.680
+#Msg# Route matched with {action = "UploadVideo", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[glkt.Common.Utils.Result.Result] UploadVideo(Microsoft.AspNetCore.Http.IFormFile) on controller glkt.Vod.Controllers.VideoController (glkt.Vod).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"a42a6440-b103-4887-ad38-22a64feaca66","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT1OPR8VVR:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1OPR8VVR"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:24.692
+#Msg# Executed action glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod) in 1.9602ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKT1OPR8VVR:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1OPR8VVR"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:24.697
+#Msg# Executed endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT1OPR8VVR:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1OPR8VVR"}
+#Exc# 
+
+
+【ERR】2022-09-23 10:49:24.719
+#Msg# An unhandled exception has occurred while executing the request.
+#Pro# {"EventId":{"Id":1,"Name":"UnhandledException"},"SourceContext":"Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware","RequestId":"0HMKT1OPR8VVR:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1OPR8VVR"}
+#Exc# System.InvalidOperationException: Unable to resolve service for type 'glkt.Service.Edu.VideorService' while attempting to activate 'glkt.Vod.Controllers.VideoController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+
+
+【INF】2022-09-23 10:49:24.740
+#Msg# Request finished HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryDaalHCa329a2pd5j 2211846 - 500 - text/plain;+charset=utf-8 167.7179ms
+#Pro# {"ElapsedMilliseconds":167.7179,"StatusCode":500,"ContentType":"text/plain; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"POST","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1OPR8VVR:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1OPR8VVR"}
+#Exc# 
+
+
+【INF】2022-09-23 10:49:24.750
+#Msg# Connection id "0HMKT1OPR8VVR", Request id "0HMKT1OPR8VVR:00000002": the application completed without reading the entire request body.
+#Pro# {"EventId":{"Id":32,"Name":"RequestBodyNotEntirelyRead"},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:42.402
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:42.846
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1SV8AE7S:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT1SV8AE7S"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:50.886
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:50.887
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:50.889
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:51.171
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 8333.9346ms
+#Pro# {"ElapsedMilliseconds":8333.9346,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1SV8AE7S:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT1SV8AE7S"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:51.292
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1SV8AE7T:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:51.293
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1SV8AE7S:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT1SV8AE7S"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:51.298
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 4.2795ms
+#Pro# {"ElapsedMilliseconds":4.2795,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1SV8AE7S:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT1SV8AE7S"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:51.373
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 81.1001ms
+#Pro# {"ElapsedMilliseconds":81.1001,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1SV8AE7T:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:51.516
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1SV8AE7T:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【INF】2022-09-23 10:56:51.713
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 196.6002ms
+#Pro# {"ElapsedMilliseconds":196.6002,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1SV8AE7T:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:08.111
+#Msg# Request starting HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryMBINkpCVWL9yUbXb 2211846
+#Pro# {"Protocol":"HTTP/1.1","Method":"POST","ContentType":"multipart/form-data; boundary=----WebKitFormBoundaryMBINkpCVWL9yUbXb","ContentLength":2211846,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1SV8AE7T:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【WRN】2022-09-23 10:57:08.135
+#Msg# Failed to determine the https port for redirect.
+#Pro# {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HMKT1SV8AE7T:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:08.141
+#Msg# Executing endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT1SV8AE7T:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:08.177
+#Msg# Route matched with {action = "UploadVideo", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[glkt.Common.Utils.Result.Result] UploadVideo(Microsoft.AspNetCore.Http.IFormFile) on controller glkt.Vod.Controllers.VideoController (glkt.Vod).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"859aa826-c756-44a9-8a21-057162306f08","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT1SV8AE7T:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:08.189
+#Msg# Executed action glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod) in 1.6963ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKT1SV8AE7T:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:08.193
+#Msg# Executed endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT1SV8AE7T:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【ERR】2022-09-23 10:57:08.214
+#Msg# An unhandled exception has occurred while executing the request.
+#Pro# {"EventId":{"Id":1,"Name":"UnhandledException"},"SourceContext":"Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware","RequestId":"0HMKT1SV8AE7T:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# System.InvalidOperationException: Unable to resolve service for type 'glkt.Service.Edu.VideorService' while attempting to activate 'glkt.Vod.Controllers.VideoController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+
+
+【INF】2022-09-23 10:57:08.233
+#Msg# Request finished HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryMBINkpCVWL9yUbXb 2211846 - 500 - text/plain;+charset=utf-8 122.4037ms
+#Pro# {"ElapsedMilliseconds":122.4037,"StatusCode":500,"ContentType":"text/plain; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"POST","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1SV8AE7T:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1SV8AE7T"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:08.245
+#Msg# Connection id "0HMKT1SV8AE7T", Request id "0HMKT1SV8AE7T:00000004": the application completed without reading the entire request body.
+#Pro# {"EventId":{"Id":32,"Name":"RequestBodyNotEntirelyRead"},"SourceContext":"Microsoft.AspNetCore.Server.Kestrel"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:51.499
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:51.576
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:51.583
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:51.659
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:51.674
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1TJQTECB:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT1TJQTECB"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:52.059
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 391.1543ms
+#Pro# {"ElapsedMilliseconds":391.1543,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1TJQTECB:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT1TJQTECB"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:52.082
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1TJQTECC:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:52.086
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1TJQTECB:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT1TJQTECB"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:52.138
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 51.9148ms
+#Pro# {"ElapsedMilliseconds":51.9148,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1TJQTECB:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT1TJQTECB"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:52.227
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 144.4651ms
+#Pro# {"ElapsedMilliseconds":144.4651,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1TJQTECC:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:52.410
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1TJQTECC:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:52.697
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 287.7683ms
+#Pro# {"ElapsedMilliseconds":287.7683,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1TJQTECC:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:58.565
+#Msg# Request starting HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryWXTus9JHGGBZ5cc9 2211846
+#Pro# {"Protocol":"HTTP/1.1","Method":"POST","ContentType":"multipart/form-data; boundary=----WebKitFormBoundaryWXTus9JHGGBZ5cc9","ContentLength":2211846,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1TJQTECC:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【WRN】2022-09-23 10:57:58.594
+#Msg# Failed to determine the https port for redirect.
+#Pro# {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HMKT1TJQTECC:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:58.603
+#Msg# Executing endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT1TJQTECC:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 10:57:58.641
+#Msg# Route matched with {action = "UploadVideo", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[glkt.Common.Utils.Result.Result] UploadVideo(Microsoft.AspNetCore.Http.IFormFile) on controller glkt.Vod.Controllers.VideoController (glkt.Vod).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"a6393eaa-bacf-4002-805b-c7e9849b9d95","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT1TJQTECC:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 10:58:01.838
+#Msg# Executing ObjectResult, writing value of type 'glkt.Common.Utils.Result.Result'.
+#Pro# {"EventId":{"Id":1,"Name":"ObjectResultExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor","ActionId":"a6393eaa-bacf-4002-805b-c7e9849b9d95","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT1TJQTECC:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 10:58:01.882
+#Msg# Executed action glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod) in 3229.9332ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKT1TJQTECC:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 10:58:01.887
+#Msg# Executed endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT1TJQTECC:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 10:58:01.893
+#Msg# Request finished HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryWXTus9JHGGBZ5cc9 2211846 - 200 - application/json;+charset=utf-8 3330.1554ms
+#Pro# {"ElapsedMilliseconds":3330.1554,"StatusCode":200,"ContentType":"application/json; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"POST","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT1TJQTECC:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT1TJQTECC"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:39.225
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:39.280
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:39.281
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:39.283
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:39.775
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT24OO3AGG:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT24OO3AGG"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:40.071
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT24OO3AGI:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:40.072
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT24OO3AGH:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT24OO3AGH"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:40.072
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 300.7011ms
+#Pro# {"ElapsedMilliseconds":300.7011,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT24OO3AGG:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT24OO3AGG"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:40.084
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 12.8222ms
+#Pro# {"ElapsedMilliseconds":12.8222,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT24OO3AGH:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT24OO3AGH"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:40.126
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.0828ms
+#Pro# {"ElapsedMilliseconds":55.0828,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT24OO3AGI:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:40.443
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT24OO3AGI:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:40.628
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 185.0239ms
+#Pro# {"ElapsedMilliseconds":185.0239,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT24OO3AGI:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:49.324
+#Msg# Request starting HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryGrcv3Xcl58lQBu7f 2211873
+#Pro# {"Protocol":"HTTP/1.1","Method":"POST","ContentType":"multipart/form-data; boundary=----WebKitFormBoundaryGrcv3Xcl58lQBu7f","ContentLength":2211873,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT24OO3AGI:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【WRN】2022-09-23 11:10:49.346
+#Msg# Failed to determine the https port for redirect.
+#Pro# {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HMKT24OO3AGI:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:49.353
+#Msg# Executing endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT24OO3AGI:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:49.387
+#Msg# Route matched with {action = "UploadVideo", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[glkt.Common.Utils.Result.Result] UploadVideo(Microsoft.AspNetCore.Http.IFormFile) on controller glkt.Vod.Controllers.VideoController (glkt.Vod).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"47ca91d1-060c-47ba-a0d3-9278bb650f9f","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT24OO3AGI:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:50.028
+#Msg# Executed action glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod) in 626.9105ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKT24OO3AGI:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【INF】2022-09-23 11:10:50.032
+#Msg# Executed endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT24OO3AGI:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【ERR】2022-09-23 11:10:50.091
+#Msg# An unhandled exception has occurred while executing the request.
+#Pro# {"EventId":{"Id":1,"Name":"UnhandledException"},"SourceContext":"Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware","RequestId":"0HMKT24OO3AGI:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# Aliyun.Acs.Core.Exceptions.ClientException: InvalidTemplateGroupId.NotFound : The TemplateGroupId does not exist. + [ RequestId : 6B2A8BA4-9D78-5A1E-BAE4-D1247A725B2B ]
+   at glkt.Service.Edu.VideorService.UploadVideo(IFormFile file, String title, String fileName) in E:\demo\谷粒课堂\后端\glkt\glkt.Service\Edu\VideorService.cs:line 68
+   at glkt.Vod.Controllers.VideoController.UploadVideo(IFormFile file) in E:\demo\谷粒课堂\后端\glkt\glkt.Vod\Controllers\VideoController.cs:line 25
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+
+
+【INF】2022-09-23 11:10:50.128
+#Msg# Request finished HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryGrcv3Xcl58lQBu7f 2211873 - 500 - text/plain;+charset=utf-8 803.1268ms
+#Pro# {"ElapsedMilliseconds":803.1268,"StatusCode":500,"ContentType":"text/plain; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"POST","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT24OO3AGI:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT24OO3AGI"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:04.460
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:04.602
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:04.607
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:04.610
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:04.618
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261I:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT25I1261I"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:05.114
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 501.8644ms
+#Pro# {"ElapsedMilliseconds":501.8644,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261I:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT25I1261I"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:05.127
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261J:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT25I1261J"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:05.128
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261K:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:06.937
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 1808.9711ms
+#Pro# {"ElapsedMilliseconds":1808.9711,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261J:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT25I1261J"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:06.979
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1850.7523ms
+#Pro# {"ElapsedMilliseconds":1850.7523,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261K:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:07.062
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261K:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:07.242
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.8713ms
+#Pro# {"ElapsedMilliseconds":179.8713,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261K:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:14.095
+#Msg# Request starting HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundary26MvsDrl8UZsYHAZ 2211873
+#Pro# {"Protocol":"HTTP/1.1","Method":"POST","ContentType":"multipart/form-data; boundary=----WebKitFormBoundary26MvsDrl8UZsYHAZ","ContentLength":2211873,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261K:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【WRN】2022-09-23 11:12:14.115
+#Msg# Failed to determine the https port for redirect.
+#Pro# {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HMKT25I1261K:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:14.124
+#Msg# Executing endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT25I1261K:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:14.161
+#Msg# Route matched with {action = "UploadVideo", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[glkt.Common.Utils.Result.Result] UploadVideo(Microsoft.AspNetCore.Http.IFormFile) on controller glkt.Vod.Controllers.VideoController (glkt.Vod).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"a9f67948-fcb3-4a2d-a7a4-0171358f943d","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT25I1261K:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:16.358
+#Msg# Executing ObjectResult, writing value of type 'glkt.Common.Utils.Result.Result'.
+#Pro# {"EventId":{"Id":1,"Name":"ObjectResultExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor","ActionId":"a9f67948-fcb3-4a2d-a7a4-0171358f943d","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT25I1261K:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:16.371
+#Msg# Executed action glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod) in 2200.9171ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKT25I1261K:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:16.375
+#Msg# Executed endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT25I1261K:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:12:16.380
+#Msg# Request finished HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundary26MvsDrl8UZsYHAZ 2211873 - 200 - application/json;+charset=utf-8 2285.4025ms
+#Pro# {"ElapsedMilliseconds":2285.4025,"StatusCode":200,"ContentType":"application/json; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"POST","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261K:00000004","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261K"}
+#Exc# 
+
+
+【INF】2022-09-23 11:16:15.286
+#Msg# Request starting HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryXcLrrOoBABCxVIkV 2211846
+#Pro# {"Protocol":"HTTP/1.1","Method":"POST","ContentType":"multipart/form-data; boundary=----WebKitFormBoundaryXcLrrOoBABCxVIkV","ContentLength":2211846,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261L:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261L"}
+#Exc# 
+
+
+【INF】2022-09-23 11:16:15.291
+#Msg# Executing endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT25I1261L:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261L"}
+#Exc# 
+
+
+【INF】2022-09-23 11:16:15.295
+#Msg# Route matched with {action = "UploadVideo", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[glkt.Common.Utils.Result.Result] UploadVideo(Microsoft.AspNetCore.Http.IFormFile) on controller glkt.Vod.Controllers.VideoController (glkt.Vod).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"a9f67948-fcb3-4a2d-a7a4-0171358f943d","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT25I1261L:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261L"}
+#Exc# 
+
+
+【INF】2022-09-23 11:16:16.880
+#Msg# Executing ObjectResult, writing value of type 'glkt.Common.Utils.Result.Result'.
+#Pro# {"EventId":{"Id":1,"Name":"ObjectResultExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor","ActionId":"a9f67948-fcb3-4a2d-a7a4-0171358f943d","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT25I1261L:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261L"}
+#Exc# 
+
+
+【INF】2022-09-23 11:16:16.882
+#Msg# Executed action glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod) in 1583.6647ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKT25I1261L:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261L"}
+#Exc# 
+
+
+【INF】2022-09-23 11:16:16.885
+#Msg# Executed endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT25I1261L:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261L"}
+#Exc# 
+
+
+【INF】2022-09-23 11:16:16.888
+#Msg# Request finished HTTP/1.1 POST http://localhost:8103/api/Video/upload multipart/form-data;+boundary=----WebKitFormBoundaryXcLrrOoBABCxVIkV 2211846 - 200 - application/json;+charset=utf-8 1602.8795ms
+#Pro# {"ElapsedMilliseconds":1602.8795,"StatusCode":200,"ContentType":"application/json; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"POST","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/Video/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT25I1261L:00000002","RequestPath":"/api/Video/upload","ConnectionId":"0HMKT25I1261L"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:29.939
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:30.016
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:30.018
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:30.020
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:30.567
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5HKS5J06:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT5HKS5J06"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:30.877
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 313.4325ms
+#Pro# {"ElapsedMilliseconds":313.4325,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5HKS5J06:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT5HKS5J06"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:31.265
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5HKS5J07:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT5HKS5J07"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:31.267
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5HKS5J06:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT5HKS5J06"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:31.270
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 2.9963ms
+#Pro# {"ElapsedMilliseconds":2.9963,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5HKS5J06:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT5HKS5J06"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:31.330
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.8027ms
+#Pro# {"ElapsedMilliseconds":64.8027,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5HKS5J07:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT5HKS5J07"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:31.660
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5HKS5J07:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT5HKS5J07"}
+#Exc# 
+
+
+【INF】2022-09-23 14:25:31.758
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.0492ms
+#Pro# {"ElapsedMilliseconds":98.0492,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5HKS5J07:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT5HKS5J07"}
+#Exc# 
+
+
+【INF】2022-09-23 14:29:36.348
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 14:29:36.409
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 14:29:36.411
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 14:29:36.413
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:16.814
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT5:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT5JU75DT5"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:21.600
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 4792.3045ms
+#Pro# {"ElapsedMilliseconds":4792.3045,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT5:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT5JU75DT5"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:21.637
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT6:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT5JU75DT6"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:21.639
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT5:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT5JU75DT5"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:21.642
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 3.2261ms
+#Pro# {"ElapsedMilliseconds":3.2261,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT5:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT5JU75DT5"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:21.721
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 83.6660ms
+#Pro# {"ElapsedMilliseconds":83.666,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT6:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT5JU75DT6"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:22.106
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT6:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT5JU75DT6"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:22.364
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 257.3138ms
+#Pro# {"ElapsedMilliseconds":257.3138,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT6:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT5JU75DT6"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:49.563
+#Msg# Request starting HTTP/1.1 POST http://localhost:8103/api/vod/upload multipart/form-data;+boundary=----WebKitFormBoundaryaHYrVeRiukjWiree 2211846
+#Pro# {"Protocol":"HTTP/1.1","Method":"POST","ContentType":"multipart/form-data; boundary=----WebKitFormBoundaryaHYrVeRiukjWiree","ContentLength":2211846,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/vod/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT7:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT7"}
+#Exc# 
+
+
+【WRN】2022-09-23 14:30:49.740
+#Msg# Failed to determine the https port for redirect.
+#Pro# {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HMKT5JU75DT7:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT7"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:49.821
+#Msg# Executing endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT5JU75DT7:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT7"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:50.466
+#Msg# Route matched with {action = "UploadVideo", controller = "Video"}. Executing controller action with signature System.Threading.Tasks.Task`1[glkt.Common.Utils.Result.Result] UploadVideo(Microsoft.AspNetCore.Http.IFormFile) on controller glkt.Vod.Controllers.VideoController (glkt.Vod).
+#Pro# {"EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"eb9d07f0-441b-47b8-af93-eaae0421c54e","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT5JU75DT7:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT7"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:56.053
+#Msg# Executing ObjectResult, writing value of type 'glkt.Common.Utils.Result.Result'.
+#Pro# {"EventId":{"Id":1,"Name":"ObjectResultExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor","ActionId":"eb9d07f0-441b-47b8-af93-eaae0421c54e","ActionName":"glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)","RequestId":"0HMKT5JU75DT7:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT7"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:56.134
+#Msg# Executed action glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod) in 5658.8653ms
+#Pro# {"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","RequestId":"0HMKT5JU75DT7:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT7"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:56.138
+#Msg# Executed endpoint 'glkt.Vod.Controllers.VideoController.UploadVideo (glkt.Vod)'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT5JU75DT7:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT7"}
+#Exc# 
+
+
+【INF】2022-09-23 14:30:56.143
+#Msg# Request finished HTTP/1.1 POST http://localhost:8103/api/vod/upload multipart/form-data;+boundary=----WebKitFormBoundaryaHYrVeRiukjWiree 2211846 - 200 - application/json;+charset=utf-8 6580.4364ms
+#Pro# {"ElapsedMilliseconds":6580.4364,"StatusCode":200,"ContentType":"application/json; charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"POST","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/vod/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT7:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT7"}
+#Exc# 
+
+
+【INF】2022-09-23 14:33:48.058
+#Msg# Request starting HTTP/1.0 OPTIONS http://localhost:8103/api/vod/upload - -
+#Pro# {"Protocol":"HTTP/1.0","Method":"OPTIONS","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/vod/upload","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT8:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT8"}
+#Exc# 
+
+
+【INF】2022-09-23 14:33:48.062
+#Msg# Executing endpoint '405 HTTP Method Not Supported'
+#Pro# {"EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT5JU75DT8:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT8"}
+#Exc# 
+
+
+【INF】2022-09-23 14:33:48.072
+#Msg# Executed endpoint '405 HTTP Method Not Supported'
+#Pro# {"EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HMKT5JU75DT8:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT8"}
+#Exc# 
+
+
+【INF】2022-09-23 14:33:48.074
+#Msg# Request finished HTTP/1.0 OPTIONS http://localhost:8103/api/vod/upload - - - 405 0 - 16.1647ms
+#Pro# {"ElapsedMilliseconds":16.1647,"StatusCode":405,"ContentType":null,"ContentLength":0,"Protocol":"HTTP/1.0","Method":"OPTIONS","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/api/vod/upload","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT5JU75DT8:00000002","RequestPath":"/api/vod/upload","ConnectionId":"0HMKT5JU75DT8"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:40.788
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:40.850
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:40.864
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:40.866
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:42.333
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7GAOTG7D:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT7GAOTG7D"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:43.221
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 892.8260ms
+#Pro# {"ElapsedMilliseconds":892.826,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7GAOTG7D:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT7GAOTG7D"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:43.498
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7GAOTG7D:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT7GAOTG7D"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:43.502
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 4.0756ms
+#Pro# {"ElapsedMilliseconds":4.0756,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7GAOTG7D:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT7GAOTG7D"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:43.571
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7GAOTG7D:00000004","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT7GAOTG7D"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:43.605
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.0974ms
+#Pro# {"ElapsedMilliseconds":34.0974,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7GAOTG7D:00000004","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT7GAOTG7D"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:45.146
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7GAOTG7D:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT7GAOTG7D"}
+#Exc# 
+
+
+【INF】2022-09-23 16:17:45.435
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 288.7800ms
+#Pro# {"ElapsedMilliseconds":288.78,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7GAOTG7D:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT7GAOTG7D"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:44.418
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:44.491
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:44.493
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:44.495
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:44.605
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7LUJ3HSM:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT7LUJ3HSM"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:44.889
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 289.0164ms
+#Pro# {"ElapsedMilliseconds":289.0164,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7LUJ3HSM:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKT7LUJ3HSM"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:44.913
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7LUJ3HSN:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT7LUJ3HSN"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:44.913
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7LUJ3HSM:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT7LUJ3HSM"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:44.918
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 4.8818ms
+#Pro# {"ElapsedMilliseconds":4.8818,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7LUJ3HSM:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKT7LUJ3HSM"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:44.981
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.1221ms
+#Pro# {"ElapsedMilliseconds":68.1221,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7LUJ3HSN:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKT7LUJ3HSN"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:46.284
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7LUJ3HSN:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT7LUJ3HSN"}
+#Exc# 
+
+
+【INF】2022-09-23 16:27:46.421
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 136.7165ms
+#Pro# {"ElapsedMilliseconds":136.7165,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKT7LUJ3HSN:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKT7LUJ3HSN"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:30.511
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:30.607
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:30.609
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:30.612
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:37.920
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVAP8KF65J:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKVAP8KF65J"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:39.374
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 1397.9268ms
+#Pro# {"ElapsedMilliseconds":1397.9268,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVAP8KF65J:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKVAP8KF65J"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:39.634
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVAP8KF65J:00000003","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKVAP8KF65J"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:39.815
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVAP8KF65K:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKVAP8KF65K"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:39.940
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 125.3696ms
+#Pro# {"ElapsedMilliseconds":125.3696,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVAP8KF65K:00000002","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKVAP8KF65K"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:40.603
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 968.9401ms
+#Pro# {"ElapsedMilliseconds":968.9401,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVAP8KF65J:00000003","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKVAP8KF65J"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:40.778
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVAP8KF65J:00000004","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKVAP8KF65J"}
+#Exc# 
+
+
+【INF】2022-09-26 08:30:41.379
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 601.0064ms
+#Pro# {"ElapsedMilliseconds":601.0064,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVAP8KF65J:00000004","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKVAP8KF65J"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:20.213
+#Msg# Now listening on: http://localhost:8103
+#Pro# {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:20.266
+#Msg# Application started. Press Ctrl+C to shut down.
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:20.267
+#Msg# Hosting environment: Development
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:20.269
+#Msg# Content root path: E:\demo\谷粒课堂\后端\glkt\glkt.Vod\
+#Pro# {"SourceContext":"Microsoft.Hosting.Lifetime"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:20.717
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/index.html - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVB1HS0LJG:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKVB1HS0LJG"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:21.286
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/index.html - - - 200 - text/html;charset=utf-8 572.8580ms
+#Pro# {"ElapsedMilliseconds":572.858,"StatusCode":200,"ContentType":"text/html;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/index.html","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVB1HS0LJG:00000002","RequestPath":"/swagger/index.html","ConnectionId":"0HMKVB1HS0LJG"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:21.365
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVB1HS0LJG:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKVB1HS0LJG"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:21.366
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/_vs/browserLink - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVB1HS0LJH:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKVB1HS0LJH"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:21.370
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 4.2270ms
+#Pro# {"ElapsedMilliseconds":4.227,"StatusCode":200,"ContentType":"application/javascript; charset=utf-8","ContentLength":11986,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_framework/aspnetcore-browser-refresh.js","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVB1HS0LJG:00000003","RequestPath":"/_framework/aspnetcore-browser-refresh.js","ConnectionId":"0HMKVB1HS0LJG"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:21.439
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 73.8187ms
+#Pro# {"ElapsedMilliseconds":73.8187,"StatusCode":200,"ContentType":"text/javascript; charset=UTF-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/_vs/browserLink","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVB1HS0LJH:00000002","RequestPath":"/_vs/browserLink","ConnectionId":"0HMKVB1HS0LJH"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:21.592
+#Msg# Request starting HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - -
+#Pro# {"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVB1HS0LJH:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKVB1HS0LJH"}
+#Exc# 
+
+
+【INF】2022-09-26 08:45:21.702
+#Msg# Request finished HTTP/1.1 GET http://localhost:8103/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.8273ms
+#Pro# {"ElapsedMilliseconds":109.8273,"StatusCode":200,"ContentType":"application/json;charset=utf-8","ContentLength":null,"Protocol":"HTTP/1.1","Method":"GET","Scheme":"http","Host":"localhost:8103","PathBase":"","Path":"/swagger/v1/swagger.json","QueryString":"","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HMKVB1HS0LJH:00000003","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HMKVB1HS0LJH"}
+#Exc# 
+

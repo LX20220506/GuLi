@@ -62,3 +62,7 @@ E:\demo\谷粒课堂\后端\glkt\glkt.WebApi\obj\Debug\net6.0\glkt.Edu.genruntim
 E:\demo\谷粒课堂\后端\glkt\glkt.WebApi\obj\Debug\net6.0\ref\glkt.Edu.dll
 E:\demo\谷粒课堂\后端\glkt\glkt.WebApi\bin\Debug\net6.0\Aliyun.OSS.Core.dll
 E:\demo\谷粒课堂\后端\glkt\glkt.WebApi\bin\Debug\net6.0\MiniExcel.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.WebApi\bin\Debug\net6.0\aliyun-net-sdk-core.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.WebApi\bin\Debug\net6.0\aliyun-net-sdk-vod.dll
+E:\demo\谷粒课堂\后端\glkt\glkt.WebApi\bin\Debug\net6.0\aliyun-net-sdk-core.pdb
+E:\demo\谷粒课堂\后端\glkt\glkt.WebApi\bin\Debug\net6.0\aliyun-net-sdk-vod.pdb

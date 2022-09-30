@@ -15,5 +15,7 @@ namespace glkt.IService.OSS
          * @return
          */
         string Upload(IFormFile file);
+
+        public string Upload(IFormFile file, string host);
     }
 }

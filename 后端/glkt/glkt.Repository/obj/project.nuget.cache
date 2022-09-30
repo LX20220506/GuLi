@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eznYAXCZKwlvNdjNHqSLLbainff4Aht1LDsx7R8fwG0CsMOwjeJWNPeLbXbnHq4CEcNBCrfVB5hvYA9m9Hch6w==",
+  "dgSpecHash": "TYMx3+EjC+I6QNGT54nBK8ZQqd/wgjRU17cuc1uOJH/gzRhKy8SKGdvq8z78/zAWjXZhDJLwmjuj2Xe/rwWC6A==",
   "success": true,
   "projectFilePath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.Repository\\glkt.Repository.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\1011751\\.nuget\\packages\\aliyun.oss.sdk.netcore\\2.13.0\\aliyun.oss.sdk.netcore.2.13.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\1011751\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

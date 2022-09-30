@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Aliyun.OSS.SDK.NetCore/2.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Aliyun.OSS.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aliyun.OSS.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "AutoMapper/11.0.0": {
         "type": "package",
         "dependencies": {
@@ -808,6 +821,30 @@
           }
         }
       },
+      "aliyun-net-sdk-core/1.5.11": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/aliyun-net-sdk-core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/aliyun-net-sdk-core.dll": {}
+        }
+      },
+      "aliyun-net-sdk-vod/2.16.10": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "aliyun-net-sdk-core": "1.5.11"
+        },
+        "compile": {
+          "bin/placeholder/aliyun-net-sdk-vod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/aliyun-net-sdk-vod.dll": {}
+        }
+      },
       "glkt.EF/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -840,6 +877,20 @@
     }
   },
   "libraries": {
+    "Aliyun.OSS.SDK.NetCore/2.13.0": {
+      "sha512": "ElvJwTAdBqFmgb7K4PdxDXPFbOBCIUI5OvCOMfCoUoDL21aivtWMFUtU1v4Dxc2wcrN8XQdY1EKeGFhJK/zVyQ==",
+      "type": "package",
+      "path": "aliyun.oss.sdk.netcore/2.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aliyun.oss.sdk.netcore.2.13.0.nupkg.sha512",
+        "aliyun.oss.sdk.netcore.nuspec",
+        "lib/netstandard2.0/Aliyun.OSS.Core.dll",
+        "lib/netstandard2.0/Aliyun.OSS.Core.pdb",
+        "lib/netstandard2.0/Aliyun.OSS.Core.xml"
+      ]
+    },
     "AutoMapper/11.0.0": {
       "sha512": "+596AnKykYCk9RxXCEF4GYuapSebQtFVvIA1oVG1rrRkCLAC7AkWehJ0brCfYUbdDW3v1H/p0W3hob7JoXGjMw==",
       "type": "package",
@@ -1876,6 +1927,16 @@
         "topage.nuspec"
       ]
     },
+    "aliyun-net-sdk-core/1.5.11": {
+      "type": "project",
+      "path": "D:\\aliyun-openapi-net-sdk-master\\aliyun-net-sdk-core\\aliyun-net-sdk-core.vs2017.csproj",
+      "msbuildProject": "D:\\aliyun-openapi-net-sdk-master\\aliyun-net-sdk-core\\aliyun-net-sdk-core.vs2017.csproj"
+    },
+    "aliyun-net-sdk-vod/2.16.10": {
+      "type": "project",
+      "path": "D:\\aliyun-openapi-net-sdk-master\\aliyun-net-sdk-vod\\aliyun-net-sdk-vod.vs2017.csproj",
+      "msbuildProject": "D:\\aliyun-openapi-net-sdk-master\\aliyun-net-sdk-vod\\aliyun-net-sdk-vod.vs2017.csproj"
+    },
     "glkt.EF/1.0.0": {
       "type": "project",
       "path": "../glkt.EF/glkt.EF.csproj",
@@ -1889,6 +1950,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Aliyun.OSS.SDK.NetCore >= 2.13.0",
       "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
       "Microsoft.Extensions.Logging.Abstractions >= 6.0.0",
       "Newtonsoft.Json >= 13.0.1",
@@ -1896,6 +1958,8 @@
       "Serilog.Sinks.File >= 5.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
       "Swashbuckle.AspNetCore.Annotations >= 6.4.0",
+      "aliyun-net-sdk-core >= 1.5.11",
+      "aliyun-net-sdk-vod >= 2.16.10",
       "glkt.EF >= 1.0.0",
       "glkt.Model >= 1.0.0"
     ]
@@ -1935,6 +1999,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\aliyun-openapi-net-sdk-master\\aliyun-net-sdk-core\\aliyun-net-sdk-core.vs2017.csproj": {
+              "projectPath": "D:\\aliyun-openapi-net-sdk-master\\aliyun-net-sdk-core\\aliyun-net-sdk-core.vs2017.csproj"
+            },
+            "D:\\aliyun-openapi-net-sdk-master\\aliyun-net-sdk-vod\\aliyun-net-sdk-vod.vs2017.csproj": {
+              "projectPath": "D:\\aliyun-openapi-net-sdk-master\\aliyun-net-sdk-vod\\aliyun-net-sdk-vod.vs2017.csproj"
+            },
             "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj": {
               "projectPath": "E:\\demo\\谷粒课堂\\后端\\glkt\\glkt.EF\\glkt.EF.csproj"
             },
@@ -1954,6 +2024,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Aliyun.OSS.SDK.NetCore": {
+            "target": "Package",
+            "version": "[2.13.0, )"
+          },
           "Microsoft.AspNetCore.Http.Abstractions": {
             "target": "Package",
             "version": "[2.2.0, )"

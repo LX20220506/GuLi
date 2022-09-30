@@ -8,6 +8,7 @@ namespace glkt.Edu.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [SwaggerTag("课程分类")]
     public class SubjectController : ControllerBase
     {
         private readonly ISubjectService _subjectService;
@@ -25,7 +26,7 @@ namespace glkt.Edu.Controllers
         }
 
         [HttpGet("List")]
-        [SwaggerOperation(Summary = "嵌套数据列表")]
+        [SwaggerOperation(Summary = "嵌套课程列表")]
         public async Task<Result> NestedList() { 
             var list = await _subjectService.NestedList();
             return ApiResult.Ok(list);

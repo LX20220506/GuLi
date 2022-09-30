@@ -18,6 +18,9 @@ namespace glkt.Edu.Extensions
         public static IServiceCollection AddEduService(this IServiceCollection services) {
             EduConfigExtensions.AddEduTeacherService(services);
             EduConfigExtensions.AddEduSebjectService(services);
+            EduConfigExtensions.AddEduCourseService(services);
+            EduConfigExtensions.AddEduChapterService(services);
+            EduConfigExtensions.AddEduVideor(services);
             return services;  
         }
 
@@ -34,7 +37,7 @@ namespace glkt.Edu.Extensions
         }
 
         /// <summary>
-        /// 添加Sebject的相关服务
+        /// 添加课程类别的相关服务
         /// </summary>
         /// <param name="services"></param>
         /// <returns></returns>
@@ -46,5 +49,40 @@ namespace glkt.Edu.Extensions
             return services;
         }
 
+        /// <summary>
+        /// 添加课程相关的服务
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
+        public static IServiceCollection AddEduCourseService(IServiceCollection services) {
+            services.AddScoped<ICourseRepository, CourseRepositoy>();
+            services.AddScoped<ICourseDescriptionRepositoy, CourseDescriptionRepositoy>();
+            services.AddScoped<ICourseService, CourseService>();
+            services.AddScoped<ICourseDescriptionService, CourseDescriptionService>();
+            return services;
+        }
+
+        /// <summary>
+        /// 添加章节相关的服务
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
+        public static IServiceCollection AddEduChapterService(IServiceCollection services) {
+            services.AddScoped<IChapterRepository, ChapterRepository>();
+            services.AddScoped<IChapterService, ChapterService>();
+            return services;
+        }
+
+        /// <summary>
+        /// 添加小节相关的服务
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
+        public static IServiceCollection AddEduVideor(IServiceCollection services)
+        {
+            services.AddScoped<IVideorRepository,VideorRepository>();
+            services.AddScoped<IVideorService, VideorService>();
+            return services;
+        }
     }
 }

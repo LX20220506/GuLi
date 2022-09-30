@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>856d886e-d9a0-4ea4-a280-0a9728f2cd92</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\glkt.Service\glkt.Service.csproj" />
+    <ProjectReference Include="D:\aliyun-openapi-net-sdk-master\aliyun-net-sdk-core\aliyun-net-sdk-core.vs2017.csproj" />
+    <ProjectReference Include="D:\aliyun-openapi-net-sdk-master\aliyun-net-sdk-vod\aliyun-net-sdk-vod.vs2017.csproj" />
+  </ItemGroup>
+
+</Project>

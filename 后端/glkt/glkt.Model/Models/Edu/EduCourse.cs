@@ -8,6 +8,11 @@ namespace glkt.EF
     /// </summary>
     public partial class EduCourse
     {
+        // 草稿
+        public static readonly string COURSE_DRAFT = "Draft";
+        // 已保存
+        public static readonly string COURSE_NORMAL = "Normal";
+
         /// <summary>
         /// 课程ID
         /// </summary>

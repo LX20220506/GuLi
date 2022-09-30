@@ -9,6 +9,8 @@
   <ItemGroup>
     <ProjectReference Include="..\glkt.EF\glkt.EF.csproj" />
     <ProjectReference Include="..\glkt.Model\glkt.Model.csproj" />
+    <ProjectReference Include="D:\aliyun-openapi-net-sdk-master\aliyun-net-sdk-core\aliyun-net-sdk-core.vs2017.csproj" />
+    <ProjectReference Include="D:\aliyun-openapi-net-sdk-master\aliyun-net-sdk-vod\aliyun-net-sdk-vod.vs2017.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aliyun.OSS.SDK.NetCore" Version="2.13.0" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />

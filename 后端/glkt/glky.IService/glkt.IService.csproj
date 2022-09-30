@@ -9,6 +9,8 @@
   <ItemGroup>
     <ProjectReference Include="..\glkt.Common\glkt.Common.csproj" />
     <ProjectReference Include="..\glkt.Model\glkt.Model.csproj" />
+    <ProjectReference Include="D:\aliyun-openapi-net-sdk-master\aliyun-net-sdk-core\aliyun-net-sdk-core.vs2017.csproj" />
+    <ProjectReference Include="D:\aliyun-openapi-net-sdk-master\aliyun-net-sdk-vod\aliyun-net-sdk-vod.vs2017.csproj" />
   </ItemGroup>
 
 </Project>
